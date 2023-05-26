@@ -5,7 +5,7 @@ preferencia e imprima no console com a formatacao especificada.
 
 ### Variaveis
 
-| Variavel      | Tipo     | Opcional | Formatação                                                         |
+| Variavel      | Tipo     | Opcional | Formatacao                                                         |
 |---------------|----------|----------|--------------------------------------------------------------------|
 | nome          | texto    | Nao      | "Nome completo: [nome] [sobrenome]"                                |
 | sobrenome     | texto    | Nao      | **Ver nome                                                         |
