@@ -1,15 +1,15 @@
-## AP1 - Definição de variáveis
+## AP1 - Definicao de variaveis
 
-Crie um programa que declare variáveis atendendo os requisitos da tabela abaixo, inicialize-as com algum valor de sua
-preferência e imprima no console com a formatação especificada.
+Crie um programa que declare variaveis atendendo os requisitos da tabela abaixo, inicialize-as com algum valor de sua
+preferencia e imprima no console com a formatacao especificada.
 
-### Variáveis
+### Variaveis
 
-| Variável      | Tipo     | Opcional | Formatação                                                         |
+| Variavel      | Tipo     | Opcional | Formatação                                                         |
 |---------------|----------|----------|--------------------------------------------------------------------|
-| nome          | texto    | Não      | "Nome completo: [nome] [sobrenome]"                                |
-| sobrenome     | texto    | Não      | **Ver nome                                                         |
-| idade         | inteiro  | Não      | "Idade: 00 (maior/menor de idade)"                                 |
-| ativo         | booleano | Não      | "Situacao: Ativo" ou "Situacao: Inativo"                           |
-| peso          | decimal  | Não      | "Peso: 0.00"                                                       |
+| nome          | texto    | Nao      | "Nome completo: [nome] [sobrenome]"                                |
+| sobrenome     | texto    | Nao      | **Ver nome                                                         |
+| idade         | inteiro  | Nao      | "Idade: 00 (maior/menor de idade)"                                 |
+| ativo         | booleano | Nao      | "Situacao: Ativo" ou "Situacao: Inativo"                           |
+| peso          | decimal  | Nao      | "Peso: 0.00"                                                       |
 | nacionalidade | texto    | Sim      | "Nacionalidade: [nacionalidade]" ou "Nacionalidade: Nao informada" |
