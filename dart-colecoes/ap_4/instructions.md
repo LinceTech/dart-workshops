@@ -1,7 +1,7 @@
 ## AP4 - Utilizando mapas
 
-Crie um programa que utilize um mapa para relacionar uma lista de cidades com a sigla do estado onde essa cidade é
-localizada. Com o mapa de cidades por estado, implemente as seguintes ações:
+Crie um programa que utilize um mapa para relacionar uma lista de cidades com a sigla do estado onde essa cidade e
+localizada. Com o mapa de cidades por estado, implemente as seguintes acoes:
 
 1. Utilizando as chaves do mapa, imprima as siglas dos estados, no formato `Estados: XX ; XX ; XX ; XX`
 2. Imprimir todas as cidades SC em ordem alfabetica (ex.: `Cidades de SC: Blumenau ; Florianopilos ; Gaspar`)

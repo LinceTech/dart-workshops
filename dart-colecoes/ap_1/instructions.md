@@ -1,4 +1,4 @@
-# ED2 - Exercicio prático Dart
+# ED2 - Exercicio pratico Dart
 
 Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_e2" para salvar seu progresso. Para
 cada exercicio realizado, crie um novo arquivo chamado _"ed2_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:

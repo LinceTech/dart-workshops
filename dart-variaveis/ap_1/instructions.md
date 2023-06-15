@@ -1,4 +1,4 @@
-# ED1 - Exercicio prático Dart
+# ED1 - Exercicio pratico Dart
 
 Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_e1" para salvar seu progresso. Para
 cada exercicio realizado, crie um novo arquivo chamado _"ed1_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
@@ -17,7 +17,7 @@ preferencia e imprima no console com a formatacao especificada.
 
 ### Variaveis
 
-| Variavel      | Tipo     | Opcional | Formatação                                                         |
+| Variavel      | Tipo     | Opcional | Formatacao                                                         |
 |---------------|----------|----------|--------------------------------------------------------------------|
 | nome          | texto    | Nao      | "Nome completo: [nome] [sobrenome]"                                |
 | sobrenome     | texto    | Nao      |                                                                    |

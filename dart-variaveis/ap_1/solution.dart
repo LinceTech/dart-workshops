@@ -7,7 +7,7 @@ void main() {
   double peso = 72.8;
   String? nacionalidade = null;
 
-  // Imprimir no console, com a formatação especificada
+  // Imprimir no console, com a formatacao especificada
   print("Nome completo: $nome $sobrenome");
 
   if (idade >= 18) {
