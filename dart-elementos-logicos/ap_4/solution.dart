@@ -1,11 +1,11 @@
 void main() {
   final listaNomes = [
-    "João",
+    "Joao",
     "Maria",
     "Pedro",
     "Maria",
     "Ana",
-    "João",
+    "Joao",
     "Maria",
     "Fernanda",
     "Carlos",
