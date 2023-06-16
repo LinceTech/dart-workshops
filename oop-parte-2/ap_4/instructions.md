@@ -1,11 +1,9 @@
-## AP4 - Definicao de variaveis
+## AP4 - Calculadora
 
-Crie um programa que atenda os requisitos abaixo:
-
-1. Declare duas variaveis numericas aleatorias* entre 1 e 100
-2. Realize a divisao da primeira variavel pela segunda e salve em uma variavel resultado
-3. Salve a parte inteira do resultado em uma nova variavel 
-4. Salve a parte decimal do resultado em uma nova variavel
-5. Imprima todas as variaveis do programa
-
-_*Utilize a biblioteca < 'dart:math' > para gerar os numeros aleatorios_
+1. Crie uma classe abstrata chamada `Calculadora`
+2. Na class `Calculadora` defina um metodo estatico chamado `dobro`, que recebe um numero como parametro e retorna o
+   dobro desse numero
+3. Gere um numero aleatoriamente
+4. Utilize o metodo estatico `dobro` da classe `Calculadora` para calcular o dobro do numero digitado e exiba o
+   resultado no console:
+   > O dobro do numero 1111 e: 2222

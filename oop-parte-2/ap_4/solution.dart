@@ -1,19 +1,20 @@
 import 'dart:math';
 
 void main() {
-    // Inicializando as variaveis
-    final random = Random();
-    final valorA = random.nextInt(100);
-    final valorB = random.nextInt(100);
-    final resultado = valorA / valorB;
-    final parteInteira = resultado.floor();
-    final parteDecimal = (resultado.floor() - resultado).abs();
+  // Gerar numero aleatorio
+  final random = Random();
+  final numero = random.nextInt(100);
 
-    // Imprimir valores iniciais
-    print("----- VALORES DAS VARIAVEIS -----");
-    print("valorA: $valorA");
-    print("valorB: $valorB");
-    print("resultado: $resultado");
-    print("parteInteira: $parteInteira");
-    print("parteDecimal: $parteDecimal");
+  // Realizar calculo
+  final resultado = Calculadora.dobro(numero);
+
+  // Imprimindo resultado do calculo
+  print("O dobro do número $numero e: $resultado");
+}
+
+// Definindo classe abstrata
+abstract class Calculadora {
+  static int dobro(int numero) {
+    return numero * 2;
+  }
 }
