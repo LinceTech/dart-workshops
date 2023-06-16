@@ -1,22 +1,29 @@
-import 'dart:math';
-
 void main() {
-  final random = Random();
-  var valorA = random.nextInt(100);
-  var valorB = random.nextInt(100);
+  // Criando animal
+  final pato = Pato();
 
-  // Imprimir valores iniciais
-  print("----- VALORES ALEATORIOS -----");
-  print("Valor A: $valorA");
-  print("Valor B: $valorB");
+  // Executando metodos
+  pato.comer();
+  pato.voar();
+}
 
-  // Inverter variaveis
-  final auxiliar = valorA;
-  valorA = valorB;
-  valorB = auxiliar;
+// Definindo classe abstrata
+abstract class Animal {
+  void comer();
+}
 
-  // Imprimir valores invertidos
-  print("----- VALORES INVERTIDOS -----");
-  print("Valor A: $valorA");
-  print("Valor B: $valorB");
+// Definindo classe abstrata
+abstract class Voador {
+  void voar();
+}
+
+// Definindo classe concreta
+class Pato implements Animal, Voador {
+  void comer() {
+    print('O pato esta comendo.');
+  }
+
+  void voar() {
+    print('O pato esta voando.');
+  }
 }

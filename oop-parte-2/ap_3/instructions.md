@@ -1,11 +1,11 @@
 ## AP3 - Definicao de variaveis
 
-Crie um programa que atenda os requisitos abaixo:
+1. Crie duas classes abstratas a seu criterio (as classes devem ser relacionadas a um mesmo contexto)
+2. Em cada classe criada, defina um metodo abstrato de sua preferencia
+3. Cria uma class concreta que implemente os comportamentos definidos pelas classes criadas no item 1
+4. Instancie a sua classe concreta e chame os metodos que voce implementou
 
-1. Declare duas variaveis numericas aleatorias* entre 1 e 100
-2. Imprima o valor dessas variaveis
-3. Inverta os valores das variaveis
-4. Imprimir novamente as variaveis
-5. Utilize "const" e "final" onde for possivel
+#### Exemplo de saida do programa com o contexto animal
 
-_*Utilize a biblioteca < 'dart:math' > para gerar os numeros aleatorios_
+> O camelo esta comendo.  
+> O camelo esta dormindo.  
