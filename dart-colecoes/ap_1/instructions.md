@@ -15,8 +15,8 @@ cada exercicio realizado, crie um novo arquivo chamado _"ed2_ap[**NUMERO DA ATIV
 Crie um programa que inicialize uma lista com 10 numeros entre 0 e 100, gerados aleatoriamente. Imprima os itens da
 lista conforme o exemplo:
 
-> Posição: 0, Valor: XX  
-> Posição: 1, Valor: XX  
-> Posição: 2, Valor: XX  
-> Posição: ...  
-> Posição: 9, Valor: XX  
+> Posicao: 0, Valor: XX  
+> Posicao: 1, Valor: XX  
+> Posicao: 2, Valor: XX  
+> Posicao: ...  
+> Posicao: 9, Valor: XX  

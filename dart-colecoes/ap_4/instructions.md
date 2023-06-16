@@ -21,7 +21,7 @@ localizada. Com o mapa de cidades por estado, implemente as seguintes acoes:
 | SC     | Florianopolis  |
 | PR     | Curitiba       |
 | PR     | Cascavel       |
-| PR     | Foz do Iguaçu  |
+| PR     | Foz do Iguacu  |
 | SP     | Sao Paulo      |
 | SP     | Guarulhos      |
 | SP     | Campinas       |

@@ -18,8 +18,8 @@ Crie um programa que atenda os requisitos abaixo:
 - Crie uma funcao receba uma lista como parametro e a imprima na seguinte formatacao `Lista: 10, 5, 39, 45, 1`
 - Crie uma funcao que receba duas listas, e retorne uma nova lista de mesmo tamanho contendo a soma dos itens de mesmo
   indice nas duas listas iniciais (ver exemplo).
-- Imprima as acões realizadas e a lista final
-- [Bonus] Validações:
+- Imprima as acoes realizadas e a lista final
+- [Bonus] Validacoes:
     - Caso tente imprimir uma lista vazia, imprimir apenas `Lista vazia`
     - Caso as listas tenham tamanhos diferentes, retornar uma lista vazia
 

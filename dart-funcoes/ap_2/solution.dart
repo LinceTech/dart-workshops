@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void main() {
-  // Chamando as funcoes conforme especificação
+  // Chamando as funcoes conforme especificacao
   final resultado1 = funcaoA(funcaoB);
   final resultado2 = funcaoA(funcaoC);
 

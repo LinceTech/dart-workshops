@@ -17,7 +17,7 @@ void main() {
   imprimirLista(lista3);
 }
 
-// Função que imprime uma lista
+// Funcao que imprime uma lista
 void imprimirLista(List<int> lista) {
   if (lista.length > 0) {
     print('Lista: ${lista.join(', ')}');
@@ -26,7 +26,7 @@ void imprimirLista(List<int> lista) {
   }
 }
 
-// Função que recebe duas listas, e retorna a soma das casas da lista
+// Funcao que recebe duas listas, e retorna a soma das casas da lista
 List<int> somarListas(List<int> lista1, List<int> lista2) {
   if (lista1.length != lista2.length) {
     return [];

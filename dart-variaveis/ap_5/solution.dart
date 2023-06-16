@@ -25,7 +25,7 @@ class Pessoa {
   String toString() {
     var imprimirFormatado = "";
 
-    // Imprimir no console, com a formatação especificada
+    // Imprimir no console, com a formatacao especificada
     imprimirFormatado += "Nome completo: $nome $sobrenome\n";
 
     if (idade >= 18) {
