@@ -8,4 +8,4 @@ exception imprima a mensagem de erro:
 
 Caso seja informado um numero par, exiba:
 
-> Entrada correta, voce inseriu um número par.
+> Entrada correta, voce inseriu um numero par.

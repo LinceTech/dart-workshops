@@ -20,7 +20,7 @@ digitado.
 
 #### Exemplo de saida com erro:
 
-> Entrada invalida. Digite apenas números inteiros.
+> Entrada invalida. Digite apenas numeros inteiros.
 
 #### Exemplo de saida bem sucedida:
 
