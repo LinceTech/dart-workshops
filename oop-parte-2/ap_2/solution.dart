@@ -1,11 +1,25 @@
 void main() {
-  const valor1 = 7.0;
-  const valor2 = 8.0;
-  const valor3 = 5.3;
-  const valor4 = 9.7;
-  const media = (valor1 + valor2 + valor3 + valor4) / 4;
+  // Criando instancia de gato
+  final gato = Gato();
+  gato.comer();
+  gato.beber();
+  gato.miar();
+}
 
-  print(
-    'A media entre [ ${valor1.toStringAsFixed(1)} , ${valor2.toStringAsFixed(1)} , ${valor3.toStringAsFixed(1)} , ${valor4.toStringAsFixed(1)} ] = ${media.toStringAsFixed(1)}',
-  );
+// Definindo tipo abstrato
+abstract class Animal {
+  void comer() {
+    print('O animal esta comendo.');
+  }
+
+  void beber() {
+    print('O animal esta bebendo.');
+  }
+}
+
+// Definindo tipo concreto
+class Gato extends Animal {
+  void miar() {
+    print('O gato esta miando.');
+  }
 }

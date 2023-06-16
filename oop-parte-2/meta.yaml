@@ -1,4 +1,4 @@
-name: LinceTech Academy - Dart - Variaveis
+name: LinceTech Academy - Orientacao a objetos 2
 type: dart
 steps:
   - name: Atividade 1
@@ -12,7 +12,4 @@ steps:
     has_solution: true
   - name: Atividade 4
     directory: ap_4
-    has_solution: true
-  - name: Atividade 5
-    directory: ap_5
     has_solution: true

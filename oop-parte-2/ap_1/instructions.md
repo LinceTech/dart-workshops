@@ -1,27 +1,17 @@
-# ED1 - Exercicio pratico Dart
+# ED8 - Exercicio pratico Dart
 
-Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_e1" para salvar seu progresso. Para
-cada exercicio realizado, crie um novo arquivo chamado _"ed1_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
+Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_e8" para salvar seu progresso. Para
+cada exercicio realizado, crie um novo arquivo chamado _"ed8_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
 
-- academy_pratica_e1
-    - ed1_ap1.dart
-    - ed1_ap2.dart
-    - ed1_ap3.dart
-    - ed1_ap4.dart
-    - ed1_ap5.dart
+- academy_pratica_e8
+    - ed8_ap1.dart
+    - ed8_ap2.dart
+    - ed8_ap3.dart
+    - ed8_ap4.dart
 
-## AP1 - Definicao de variaveis
+## AP1 - Generos musicais
 
-Crie um programa que declare variaveis atendendo os requisitos da tabela abaixo, inicialize-as com algum valor de sua
-preferencia e imprima no console com a formatacao especificada.
-
-### Variaveis
-
-| Variavel      | Tipo     | Opcional | Formatacao                                                         |
-|---------------|----------|----------|--------------------------------------------------------------------|
-| nome          | texto    | Nao      | "Nome completo: [nome] [sobrenome]"                                |
-| sobrenome     | texto    | Nao      |                                                                    |
-| idade         | inteiro  | Nao      | "Idade: 00 (maior/menor de idade)"                                 |
-| ativo         | booleano | Nao      | "Situacao: Ativo" ou "Situacao: Inativo"                           |
-| peso          | decimal  | Nao      | "Peso: 0.00"                                                       |
-| nacionalidade | texto    | Sim      | "Nacionalidade: [nacionalidade]" ou "Nacionalidade: Nao informada" |
+1. Crie um enumerador que definindo tipos de generos musicais
+2. Utilize a classe `Random` escolher um genero musical aleatoriamente
+3. Imprimir o genero musical escolhido conforme:
+   > Meu genero musical preferido e o XXXXXXX

@@ -1,32 +1,40 @@
+import 'dart:math';
+
+// Definindo generos musicais
+enum GenerosMusicais {
+  trap,
+  pagode,
+  samba,
+  rock,
+  pop,
+  rap,
+}
+
 void main() {
-  // Declarando as variaveis
-  String nome = "John";
-  String sobrenome = "Doe";
-  int idade = 18;
-  bool ativo = true;
-  double peso = 72.8;
-  String? nacionalidade = null;
+  // Gerar numero aleatorio
+  final numeroAleatorio = Random().nextInt(GenerosMusicais.values.length);
+  print(numeroAleatorio);
 
-  // Imprimir no console, com a formatacao especificada
-  print("Nome completo: $nome $sobrenome");
-
-  if (idade >= 18) {
-    print("Idade: $idade (maior de idade)");
-  } else {
-    print("Idade: $idade (menor de idade)");
-  }
-
-  if (ativo) {
-    print("Situacao: Ativo");
-  } else {
-    print("Situacao: Inativo");
-  }
-
-  print("Peso: ${peso.toStringAsFixed(2)}");
-
-  if (nacionalidade != null) {
-    print("Nacionalidade: $nacionalidade");
-  } else {
-    print("Nacionalidade: Nao informada");
+  // Pegar um valor do enum com base no numero gerado
+  final generoFavorito = GenerosMusicais.values[numeroAleatorio];
+  switch (generoFavorito) {
+    case GenerosMusicais.trap:
+      print('Meu genero musical preferido e o trap');
+      break;
+    case GenerosMusicais.pagode:
+      print('Meu genero musical preferido e o pagode');
+      break;
+    case GenerosMusicais.samba:
+      print('Meu genero musical preferido e o samba');
+      break;
+    case GenerosMusicais.rock:
+      print('Meu genero musical preferido e o rock');
+      break;
+    case GenerosMusicais.pop:
+      print('Meu genero musical preferido e o pop');
+      break;
+    case GenerosMusicais.rap:
+      print('Meu genero musical preferido e o rap');
+      break;
   }
 }
