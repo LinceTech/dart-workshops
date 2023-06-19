@@ -1,32 +1,29 @@
-void main() {
-  // Declarando as variaveis
-  String nome = "John";
-  String sobrenome = "Doe";
-  int idade = 18;
-  bool ativo = true;
-  double peso = 72.8;
-  String? nacionalidade = null;
+import 'dart:async';
 
-  // Imprimir no console, com a formatacao especificada
-  print("Nome completo: $nome $sobrenome");
+Future<String> consultarAPI(String codigoRastreamento) async {
+  await Future.delayed(Duration(seconds: 2));
 
-  if (idade >= 18) {
-    print("Idade: $idade (maior de idade)");
+  // Simulacao de consulta a API com codigo de rastreamento
+  if (codigoRastreamento == 'ABC123') {
+    return 'Em transito';
+  } else if (codigoRastreamento == 'XYZ789') {
+    return 'Entregue';
+  } else if (codigoRastreamento == 'DEF456') {
+    return 'Atrasado';
   } else {
-    print("Idade: $idade (menor de idade)");
+    return 'Codigo de rastreamento invalido';
   }
+}
 
-  if (ativo) {
-    print("Situacao: Ativo");
-  } else {
-    print("Situacao: Inativo");
-  }
+Future<void> verificarStatusEntrega(String codigoRastreamento) async {
+  String status = await consultarAPI(codigoRastreamento);
+  print('Status de entrega do pacote $codigoRastreamento: $status');
+}
 
-  print("Peso: ${peso.toStringAsFixed(2)}");
-
-  if (nacionalidade != null) {
-    print("Nacionalidade: $nacionalidade");
-  } else {
-    print("Nacionalidade: Nao informada");
-  }
+Future<void> main() async {
+  print('Inicio');
+  await verificarStatusEntrega('ABC123');
+  await verificarStatusEntrega('XYZ789');
+  await verificarStatusEntrega('DEF456');
+  print('Fim');
 }
