@@ -1,11 +1,29 @@
-void main() {
-  const valor1 = 7.0;
-  const valor2 = 8.0;
-  const valor3 = 5.3;
-  const valor4 = 9.7;
-  const media = (valor1 + valor2 + valor3 + valor4) / 4;
+import 'dart:async';
 
-  print(
-    'A media entre [ ${valor1.toStringAsFixed(1)} , ${valor2.toStringAsFixed(1)} , ${valor3.toStringAsFixed(1)} , ${valor4.toStringAsFixed(1)} ] = ${media.toStringAsFixed(1)}',
-  );
+Future<void> main() async {
+  List<String> urls = [
+    'https://example.com/imagem1.jpg',
+    'https://example.com/imagem2.jpg',
+    'https://example.com/imagem3.jpg',
+  ];
+
+  await baixarImagens(urls);
 }
+
+Future<void> baixarImagem(String url) async {
+  await Future.delayed(Duration(seconds: 2));
+
+  // Simulacao de download da imagem
+  print('Imagem $url baixada com sucesso!');
+}
+
+Future<void> baixarImagens(List<String> urls) async {
+  print('Baixando imagens...');
+
+  for (String url in urls) {
+    await baixarImagem(url);
+  }
+
+  print('Download concluido com sucesso!');
+}
+
