@@ -4,10 +4,20 @@ Future<void> main() async {
   var contador = 5;
 
   while (contador > 0) {
-    await function(contador);
+    await contagem(contador);
 
     contador--;
   }
 
   print('Foguete lancado!');
+}
+
+Future<void> contagem(int value) async {
+  print('$value');
+  await Future.delayed(
+    Duration(
+      seconds: 1,
+    ),
+        () {},
+  );
 }
