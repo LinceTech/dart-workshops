@@ -1,19 +1,16 @@
-import 'dart:math';
+// resposta
+void main() async {
+  print('Iniciando busca de dados');
 
-void main() {
-    // Inicializando as variaveis
-    final random = Random();
-    final valorA = random.nextInt(100);
-    final valorB = random.nextInt(100);
-    final resultado = valorA / valorB;
-    final parteInteira = resultado.floor();
-    final parteDecimal = (resultado.floor() - resultado).abs();
+  print('Buscando dados...');
+  await buscarDados();
 
-    // Imprimir valores iniciais
-    print("----- VALORES DAS VARIAVEIS -----");
-    print("valorA: $valorA");
-    print("valorB: $valorB");
-    print("resultado: $resultado");
-    print("parteInteira: $parteInteira");
-    print("parteDecimal: $parteDecimal");
+  print('Busca finalizada');
+}
+
+Future<void> buscarDados() async {
+  await Future.delayed(
+    Duration(seconds: 5),
+        () {},
+  );
 }
