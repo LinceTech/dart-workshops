@@ -1,22 +1,13 @@
-import 'dart:math';
+Future<void> main() async {
+  print('Iniciando lancamento');
 
-void main() {
-  final random = Random();
-  var valorA = random.nextInt(100);
-  var valorB = random.nextInt(100);
+  var contador = 5;
 
-  // Imprimir valores iniciais
-  print("----- VALORES ALEATORIOS -----");
-  print("Valor A: $valorA");
-  print("Valor B: $valorB");
+  while (contador > 0) {
+    await function(contador);
 
-  // Inverter variaveis
-  final auxiliar = valorA;
-  valorA = valorB;
-  valorB = auxiliar;
+    contador--;
+  }
 
-  // Imprimir valores invertidos
-  print("----- VALORES INVERTIDOS -----");
-  print("Valor A: $valorA");
-  print("Valor B: $valorB");
+  print('Foguete lancado!');
 }
