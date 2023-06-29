@@ -12,6 +12,9 @@ cada exercicio realizado, crie um novo arquivo chamado _"d1_de[**NUMERO DO DESAF
     - d1_de6.dart
     - d1_de7.dart
 
+Cada desafio tem um tempo recomendado para implementacao, para ter e experiencia completa utilize um cronometro e
+registre quanto tempo voce leva para realizar cada desafio.
+
 ## DE1 - Raios e perimetros
 
 Escreva um programa que receba uma lista de raios de circulos e com base nos raios, calcule o area e o perimetro de cada
