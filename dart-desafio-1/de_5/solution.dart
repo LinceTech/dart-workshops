@@ -1,13 +1,60 @@
-void main() {
-  final numeros = [3, 17, 23, 49, 328, 1358, 21, 429, 12, 103, 20021];
-  imprimirNumeros(numeros);
-}
+import 'dart:math' as math;
 
-void imprimirNumeros(List<int> numeros) {
-  for (final decimal in numeros..sort()) {
-    print('decimal: $decimal, '
-        'binario: ${decimal.toRadixString(2)}, '
-        'octal: ${decimal.toRadixString(8)}, '
-        'hexadecimal: ${decimal.toRadixString(16)}');
-  }
+const nomes = [
+  'Ana',
+  'Maria',
+  'Francisco',
+  'Joao',
+  'Pedro',
+  'Gabriel',
+  'Rafaela',
+  'Marcio',
+  'Jose',
+  'Carlos',
+  'Patricia',
+  'Helena',
+  'Camila',
+  'Mateus',
+  'Gabriel',
+  'Samuel',
+  'Karina',
+  'Antonio',
+  'Daniel',
+  'Joel',
+  'Cristiana',
+  'Sebastiao',
+  'Paula'
+];
+
+const sobrenomes = [
+  'Silva',
+  'Souza',
+  'Almeida',
+  'Azevedo',
+  'Braga',
+  'Barros',
+  'Campos',
+  'Cardoso',
+  'Costa',
+  'Teixeira',
+  'Santos',
+  'Rodrigues',
+  'Ferreira',
+  'Alves',
+  'Pereira',
+  'Lima',
+  'Gomes',
+  'Ribeiro',
+  'Carvalho',
+  'Lopes',
+  'Barbosa'
+];
+
+void main() {
+  final random = math.Random();
+  final nomeGerado = nomes[random.nextInt(nomes.length)];
+  final sobrenomeGerado = sobrenomes[random.nextInt(sobrenomes.length)];
+  final nomeCompletoGerado = '$nomeGerado $sobrenomeGerado';
+
+  print('Nome gerado: $nomeCompletoGerado');
 }

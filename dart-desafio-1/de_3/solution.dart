@@ -1,24 +1,69 @@
-import 'package:intl/intl.dart';
+const vogais = 'aeiou';
+const consoantes = 'bcdfghjklmnpqrstvwxyz';
 
 void main() {
-  final dateFormat = DateFormat('dd/MM/yyyy');
-  final dataAtual = DateTime.now();
+  final paragrafo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris lobortis quam id lacinia porttitor.';
+  final palavras = contarPalavras(paragrafo);
+  final tamanhoDoTexto = contarTamanhoTexto(paragrafo);
+  final numeroDeFrases = contarNumeroDeFrases(paragrafo);
+  final numeroDeVogais = contarNumeroDeVogais(paragrafo);
+  final consoantesEncontradas = pegarConsoantesUtilizadas(paragrafo);
 
-  var diasUteisRestantes = 18;
-  var dataCalculada = dataAtual;
+  print('Paragrafo: $paragrafo');
+  print('Numero de palavras: $palavras');
+  print('Tamanho do texto: $tamanhoDoTexto');
+  print('Numero de frases: $numeroDeFrases');
+  print('Numero de vogais: $numeroDeVogais');
+  print('Consoantes encontradas: $consoantesEncontradas');
+}
 
-  while (diasUteisRestantes > 0) {
-    dataCalculada = dataCalculada.add(Duration(days: 1));
-    final ehSabado = dataCalculada.weekday == DateTime.friday;
-    final ehDomingo = dataCalculada.weekday == DateTime.sunday;
+int contarPalavras(String paragrafo) {
+  if (paragrafo.trim().isEmpty) {
+    return 0;
+  }
+  return paragrafo.split(' ').length;
+}
 
-    if (ehSabado || ehDomingo) {
+int contarTamanhoTexto(String paragrafo) => paragrafo.trim().length;
+
+int contarNumeroDeFrases(String paragrafo) {
+  var contadorFrases = 0;
+  final frases = paragrafo.trim().split('.');
+  for (final frase in frases) {
+    if (frase.isNotEmpty) {
+      contadorFrases++;
+    }
+  }
+  return contadorFrases;
+}
+
+int contarNumeroDeVogais(String paragrafo) {
+  var contadorVogais = 0;
+  for (final rune in paragrafo.trim().runes) {
+    final caractere = String.fromCharCode(rune).toLowerCase();
+    if (vogais.contains(caractere)) {
+      contadorVogais++;
+    }
+  }
+  return contadorVogais;
+}
+
+String pegarConsoantesUtilizadas(String paragrafo) {
+  final consoantesEncontradas = <String>{};
+
+  for (final rune in paragrafo.trim().runes) {
+    final caractere = String.fromCharCode(rune).toLowerCase();
+    final ehConsoante = consoantes.contains(caractere);
+    if (!ehConsoante) {
       continue;
     }
 
-    diasUteisRestantes--;
+    final jaEncontrada = consoantesEncontradas.contains(caractere);
+    if (!jaEncontrada) {
+      consoantesEncontradas.add(caractere);
+    }
   }
+  final ordenado = (consoantesEncontradas.toList())..sort();
 
-  print('Data atual: ${dateFormat.format(dataAtual)}');
-  print('Data calculada: ${dateFormat.format(dataCalculada)}');
+  return ordenado.join(', ');
 }

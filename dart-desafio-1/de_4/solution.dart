@@ -1,60 +1,24 @@
-import 'dart:math' as math;
-
-const nomes = [
-  'Ana',
-  'Maria',
-  'Francisco',
-  'Joao',
-  'Pedro',
-  'Gabriel',
-  'Rafaela',
-  'Marcio',
-  'Jose',
-  'Carlos',
-  'Patricia',
-  'Helena',
-  'Camila',
-  'Mateus',
-  'Gabriel',
-  'Samuel',
-  'Karina',
-  'Antonio',
-  'Daniel',
-  'Joel',
-  'Cristiana',
-  'Sebastiao',
-  'Paula'
-];
-
-const sobrenomes = [
-  'Silva',
-  'Souza',
-  'Almeida',
-  'Azevedo',
-  'Braga',
-  'Barros',
-  'Campos',
-  'Cardoso',
-  'Costa',
-  'Teixeira',
-  'Santos',
-  'Rodrigues',
-  'Ferreira',
-  'Alves',
-  'Pereira',
-  'Lima',
-  'Gomes',
-  'Ribeiro',
-  'Carvalho',
-  'Lopes',
-  'Barbosa'
-];
+import 'package:intl/intl.dart';
 
 void main() {
-  final random = math.Random();
-  final nomeGerado = nomes[random.nextInt(nomes.length)];
-  final sobrenomeGerado = sobrenomes[random.nextInt(sobrenomes.length)];
-  final nomeCompletoGerado = '$nomeGerado $sobrenomeGerado';
+  final dateFormat = DateFormat('dd/MM/yyyy');
+  final dataAtual = DateTime.now();
 
-  print('Nome gerado: $nomeCompletoGerado');
+  var diasUteisRestantes = 18;
+  var dataCalculada = dataAtual;
+
+  while (diasUteisRestantes > 0) {
+    dataCalculada = dataCalculada.add(Duration(days: 1));
+    final ehSabado = dataCalculada.weekday == DateTime.friday;
+    final ehDomingo = dataCalculada.weekday == DateTime.sunday;
+
+    if (ehSabado || ehDomingo) {
+      continue;
+    }
+
+    diasUteisRestantes--;
+  }
+
+  print('Data atual: ${dateFormat.format(dataAtual)}');
+  print('Data calculada: ${dateFormat.format(dataCalculada)}');
 }
