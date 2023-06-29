@@ -14,8 +14,8 @@ void converterTemperaturas(List<double> temperaturas) {
 
     print(
       'Celcius: ${celcius.toStringAsFixed(2)}, '
-          'fahrenheit: ${fahrenheit.toStringAsFixed(2)}, '
-          'kelvin: ${kelvin.toStringAsFixed(2)}',
+      'fahrenheit: ${fahrenheit.toStringAsFixed(2)}, '
+      'kelvin: ${kelvin.toStringAsFixed(2)}',
     );
   }
 }

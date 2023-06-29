@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 void main() {
-  final raios = [5.0, 8.0, 12.0, 6.3, 15.0];
+  final raios = [5.0, 8.0, 12.0, 7.3, 18.0, 2.0, 25.0];
   calcularRaios(raios);
 }
 
