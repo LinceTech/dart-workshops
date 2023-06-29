@@ -11,7 +11,7 @@ Future<String> consultarAPI(String codigoRastreamento) async {
   } else if (codigoRastreamento == 'DEF456') {
     return 'Atrasado';
   } else {
-    return 'Código de rastreamento invalido';
+    return 'Codigo de rastreamento invalido';
   }
 }
 

@@ -9,7 +9,7 @@ void main() {
   final resultado = Calculadora.dobro(numero);
 
   // Imprimindo resultado do calculo
-  print("O dobro do número $numero e: $resultado");
+  print("O dobro do numero $numero e: $resultado");
 }
 
 // Definindo classe abstrata
