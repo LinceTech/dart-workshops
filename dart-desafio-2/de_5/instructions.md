@@ -5,7 +5,7 @@ Baseado na situacao descrita abaixo, escreva um programa utilizando a estrutura 
 **IMPORTANTE**: para a realizacao desse exercicio, nao deve ser utilizado dynamic.
 
 Crie uma classe para auxiliar no controle de itens que devem ser comprados numa visita ao mercado. O programa deve
-possuir o nome dos itens a serem comprados, e a quantidade desejada. Essa classe deve possuir as seguintes ações:
+possuir o nome dos itens a serem comprados, e a quantidade desejada. Essa classe deve possuir as seguintes acoes:
 
 1. Incluir novos itens desejados;
 2. Separar os itens ja comprados dos itens desejados;

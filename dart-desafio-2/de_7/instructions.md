@@ -3,7 +3,7 @@
 Crie uma classe para controlar uma fila de um mercado, seguindo as especificacoes:
 
 1. Noo utilizar a classe List, deve ser utilizada uma classe do pacote 'dart:collections' especializada nesse tipo de
-   manipulacao de colecoes (manipular extremidades de colecoes — primeiro e ultimo item)
+   manipulacao de colecoes (manipular extremidades de colecoes - primeiro e ultimo item)
 2. Quem entra na fila primeiro, sera atendido primeiro;
 3. Cada pessoa da fila deve ter um nome e sobrenome gerado aleatoriamente. O gerador de nomes deve ser uma classe
    separada, que tenha apenas o metodo `gerarNomeAleatorio`;

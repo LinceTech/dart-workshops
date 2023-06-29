@@ -3,7 +3,7 @@
 **IMPORTANTE**: para a realizacao desse exercicio, nao deve ser utilizado dynamic.
 
 1. Nao utilizar a classe List, deve ser utilizada uma classe do pacote 'dart:collections' especializada nesse tipo de
-   manipulacao de colecoes (manipular extremidades de colecoes — primeiro e ultimo item)
+   manipulacao de colecoes (manipular extremidades de colecoes - primeiro e ultimo item)
 2. O baralho permite empilhar uma carta por vez
 3. O baralho permite remover uma carta por vez, a carta removida deve sempre ser a carta que esta no topo do baralho;
 4. As cartas so podem ser criadas com os naipes validos (paus/copas/espadas/ouros)
