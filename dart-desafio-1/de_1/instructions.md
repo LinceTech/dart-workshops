@@ -1,4 +1,4 @@
-# ED5 - Exercicio pratico Dart
+# DE1 - Desafio Dart 1
 
 Antes de comecar a programar, crie um novo projeto no git chamado "academy_desafio_d1" para salvar seu progresso. Para
 cada exercicio realizado, crie um novo arquivo chamado _"d1_de[**NUMERO DO DESAFIO**].dart"_, ex:
