@@ -8,10 +8,10 @@
 3. O baralho permite remover uma carta por vez, a carta removida deve sempre ser a carta que esta no topo do baralho;
 4. As cartas so podem ser criadas com os naipes validos (paus/copas/espadas/ouros)
 5. No metodo main, deve-se incluir no baralho as seguintes cartas, na ordem especificada:
-    1. A ♧ (paus - U+2663)
-    2. A ♡ (copas - U+2665)
-    3. A ♤ (espadas - U+2660)
-    4. A ♢ (ouros - U+2666)
+    1. A ![♧](https://icons8.com/icon/79935/clubs) (paus - U+2663)
+    2. A ![♡](https://icons8.com/icon/10287/favorite) (copas - U+2665)
+    3. A ![♤](https://icons8.com/icon/79931/spades) (espadas - U+2660)
+    4. A ![♢](https://icons8.com/icon/79930/diamonds) (ouros - U+2666)
 6. Ainda no metodo main, deve ser utilizada uma estrutura de repeticao (loop), para remover todas as cartas do baralho,
    seguindo a regra definida no item 2 (uma carta removida por vez, sendo a carta que esta no topo do baralho).
 
