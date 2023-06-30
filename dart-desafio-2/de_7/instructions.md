@@ -10,7 +10,7 @@ Crie uma classe para controlar uma fila de um mercado, seguindo as especificacoe
 4. Quando uma pessoa entra na fila, deve ser exibido no console *`(Fulano Silva) entrou na fila`
 5. Quando uma pessoa for atendida, deve ser exibido no console uma mensagem dizendo *`(Fulano Silva) foi atendido(a)`
 6. No metodo main, a fila deve ser populada com 10 pessoas;
-7. No metodo main, as pessoas devem ser atendidas corretamente de acordo com a ordem que entraram na fila, até a fila
+7. No metodo main, as pessoas devem ser atendidas corretamente de acordo com a ordem que entraram na fila, ate a fila
    ser esgotada
 
 ** _substituir (Fulano Silva) pelo nome da pessoa_
