@@ -12,7 +12,7 @@ possuir o nome dos itens a serem comprados, e a quantidade desejada. Essa classe
 3. Separar os itens que nao havia estoque dos itens desejados;
 4. Exibir no console os itens desejados, com as suas quantidades;
 5. Escolher um item pendente aleatoriamente;
-6. Mostrar um indicador de progresso, com o número de itens desejados versus o numero de itens comprados (ex.: "
+6. Mostrar um indicador de progresso, com o numero de itens desejados versus o numero de itens comprados (ex.: "
    Progresso: 7/12");
 7. No metodo main, instanciar a classe criada e simular a criacao de uma lista de compras com pelo menos 3 itens, e
    demonstrar o funcionamento marcando 2 itens como comprados, e 1 como item sem estoque.
