@@ -9,7 +9,7 @@ cada exercicio realizado, crie um novo arquivo chamado _"ef2_ap[**NUMERO DA ATIV
     - ef2_ap3.dart
     - ef2_ap4.dart
 
-## AP1 - Cores aleatorias
+## AP1 - Retangulos coloridos
 
 Utilizando os widgets vistos, crie um app que reproduza o layout da imagem, considerando os seguintes tamanhos:
 
