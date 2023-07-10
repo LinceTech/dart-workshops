@@ -1,0 +1,6 @@
+name: LinceTech Academy - Desafios Dart 3
+type: dart
+steps:
+  - name: Desafio 1
+    directory: de_1
+    has_solution: false
