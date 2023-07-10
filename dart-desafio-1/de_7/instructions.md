@@ -8,7 +8,7 @@ essa funcao de tres formas distintas:
 3. Utilizando um metodo recursivo;
 4. Utilizando metodos de lista;
 
-**Numeros**: 3, 17, 23, 49, 328, 1358, 21, 429, 12, 103, 20021
+**Numeros**: 10, 35, 999, 126, 95, 7, 348, 462, 43, 109
 
 Tempo do desafio: __10 minutos__  
 **Saida esperada no console:**
