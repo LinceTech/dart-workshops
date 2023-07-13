@@ -11,4 +11,5 @@ cada exercicio realizado, crie um novo arquivo chamado _"ef1_ap[**NUMERO DA ATIV
 
 ## AP1 - Cores aleatorias
 
-Crie um aplicativo que altere a cor do texto aleatoriamente conforme o toque sobre um botao "Sortear cor" 
+Crie um aplicativo que altere a cor do texto aleatoriamente conforme o toque sobre um botao "Sortear cor"
+(utilize o Widget de sua preferencia: `GestureDetector`, `ElevatedButton`, `TextButton`, `OutlinedButton`)
