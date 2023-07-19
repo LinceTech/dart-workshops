@@ -32,7 +32,7 @@ class Pessoa {
   final String github;
   final TipoSanguineo tipoSanguineo;
 
-// todo: implementar equals e hashcode
+  // todo: implementar equals e hashcode
 }
 
 class EstadoListaDePessoas with ChangeNotifier {
