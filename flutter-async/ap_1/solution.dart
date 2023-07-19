@@ -94,12 +94,12 @@ class _AppState extends State<App> {
       } else {
         _situacao = EstadoDaTela.erroDeCarregamento;
         _mensagemDeErro =
-        "Erro na requisição http (cód.: ${response.statusCode})";
+        "Erro na requisicao http (cod.: ${response.statusCode})";
       }
     } catch (error, stack) {
       print('Erro: $error\n$stack');
       _situacao = EstadoDaTela.erroDeCarregamento;
-      _mensagemDeErro = "Erro na requisição.\nCausa: $error";
+      _mensagemDeErro = "Erro na requisicao.\nCausa: $error";
     } finally {
       setState(() => {});
     }
