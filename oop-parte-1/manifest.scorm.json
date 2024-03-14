@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - OOP #1",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Conta bancaria",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

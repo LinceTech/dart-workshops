@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Funções",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Praticando funções",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

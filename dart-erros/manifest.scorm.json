@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Erros",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Conversao de numeros",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

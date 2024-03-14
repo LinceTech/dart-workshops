@@ -1,20 +1,3 @@
-# DE1 - Desafio Dart 1
-
-Antes de comecar a programar, crie um novo projeto no git chamado "academy_desafio_d2" para salvar seu progresso. Para
-cada exercicio realizado, crie um novo arquivo chamado _"d2_de[**NUMERO DO DESAFIO**].dart"_, ex:
-
-- academy_desafio_d2
-    - d2_de1.dart
-    - d2_de2.dart
-    - d2_de3.dart
-    - d2_de4.dart
-    - d2_de5.dart
-    - d2_de6.dart
-    - d2_de7.dart
-
-Cada desafio tem um tempo recomendado para implementacao, para ter e experiencia completa utilize um cronometro e
-registre quanto tempo voce leva para realizar cada desafio.
-
 ## DE1 - Telefones
 
 Utilizando os conceitos de orientacao a objetos, complete o programa sem alterar o codigo ja existente, para que o

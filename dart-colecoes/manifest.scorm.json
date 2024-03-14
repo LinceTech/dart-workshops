@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Coleções",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Lista aleatoria",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

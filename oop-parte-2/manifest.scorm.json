@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - OOP #2",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Generos musicais",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

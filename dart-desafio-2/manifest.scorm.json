@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Desafio #2",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Telefones",
         "contains": "markdown",
         "res": "de_1/instructions.md"

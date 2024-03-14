@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Elementos logicos",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Numeros impares",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

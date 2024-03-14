@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Variaveis",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "Definicao de variaveis",
         "contains": "markdown",
         "res": "ap_1/instructions.md"

@@ -6,6 +6,11 @@
     "title": "LinceTech Academy - Dart - Concorrencia",
     "contents": [
       {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
         "title": "API de rastreio",
         "contains": "markdown",
         "res": "ap_1/instructions.md"
