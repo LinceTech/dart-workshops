@@ -1,4 +1,4 @@
-## AP3 - Definicao de variaveis
+## AP3 - Números aleatórios
 
 Crie um programa que atenda os requisitos abaixo:
 

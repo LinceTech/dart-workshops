@@ -1,4 +1,4 @@
-## AP2 - Definicao de variaveis
+## AP2 - Calculo de médias
 
 Crie um programa que calcula media entre quatro valores, e imprima no console conforme o exemplo abaixo. Utilize os
 modificadores "const" e "final" onde for possivel.

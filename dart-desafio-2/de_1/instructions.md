@@ -15,7 +15,7 @@ cada exercicio realizado, crie um novo arquivo chamado _"d2_de[**NUMERO DO DESAF
 Cada desafio tem um tempo recomendado para implementacao, para ter e experiencia completa utilize um cronometro e
 registre quanto tempo voce leva para realizar cada desafio.
 
-## DE1 - Raios e perimetros
+## DE1 - Telefones
 
 Utilizando os conceitos de orientacao a objetos, complete o programa sem alterar o codigo ja existente, para que o
 programa imprima aleatoriamente no console uma das tres saidas abaixo.

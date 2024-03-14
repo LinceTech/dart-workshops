@@ -1,0 +1,35 @@
+{
+  "id": "dart-operadores",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Funções",
+    "title": "LinceTech Academy - Dart - Funções",
+    "contents": [
+      {
+        "title": "Anos bissextos",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Lista de numeros",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Remover da lista",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Definicao de variaveis",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      },
+      {
+        "title": "Pessoas e idades",
+        "contains": "markdown",
+        "res": "ap_5/instructions.md"
+      }
+    ]
+  }
+}

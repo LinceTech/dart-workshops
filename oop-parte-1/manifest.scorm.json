@@ -1,0 +1,30 @@
+{
+  "id": "oop-parte-1",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - OOP #1",
+    "title": "LinceTech Academy - Dart - OOP #1",
+    "contents": [
+      {
+        "title": "Conta bancaria",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Área de retangulo",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Produtos e descontos",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Pessoas",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      }
+    ]
+  }
+}

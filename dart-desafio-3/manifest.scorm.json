@@ -1,0 +1,15 @@
+{
+  "id": "dart-desafio-3",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Desafio #3",
+    "title": "LinceTech Academy - Dart - Desafio #3",
+    "contents": [
+      {
+        "title": "Termo",
+        "contains": "markdown",
+        "res": "de_1/instructions.md"
+      }
+    ]
+  }
+}

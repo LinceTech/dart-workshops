@@ -1,4 +1,4 @@
-## AP2 - Definicao de variaveis
+## AP2 - Área de retangulo
 
 1. Crie uma classe chamada `Retangulo` com os atributos `largura` e `altura`
 2. Adicione um metodo chamado `calcularArea` que retorna a area do retangulo

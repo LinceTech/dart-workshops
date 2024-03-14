@@ -1,0 +1,30 @@
+{
+  "id": "dart-colecoes",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Coleções",
+    "title": "LinceTech Academy - Dart - Coleções",
+    "contents": [
+      {
+        "title": "Lista aleatoria",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Utilizando metodos de lista #1",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Utilizando metodos de lista #2",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Utilizando mapas",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      }
+    ]
+  }
+}

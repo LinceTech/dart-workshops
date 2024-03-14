@@ -1,0 +1,45 @@
+{
+  "id": "dart-desafio-2",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Desafio #1",
+    "title": "LinceTech Academy - Dart - Desafio #1",
+    "contents": [
+      {
+        "title": "Raios e perimetros",
+        "contains": "markdown",
+        "res": "de_1/instructions.md"
+      },
+      {
+        "title": "Temperaturas",
+        "contains": "markdown",
+        "res": "de_2/instructions.md"
+      },
+      {
+        "title": "Manipulando texto",
+        "contains": "markdown",
+        "res": "de_3/instructions.md"
+      },
+      {
+        "title": "Manipulando datas",
+        "contains": "markdown",
+        "res": "de_4/instructions.md"
+      },
+      {
+        "title": "Sugestoes de nomes",
+        "contains": "markdown",
+        "res": "de_5/instructions.md"
+      },
+      {
+        "title": "Numeros",
+        "contains": "markdown",
+        "res": "de_6/instructions.md"
+      },
+      {
+        "title": "Somas de numeros",
+        "contains": "markdown",
+        "res": "de_7/instructions.md"
+      }
+    ]
+  }
+}

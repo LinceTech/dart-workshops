@@ -1,0 +1,30 @@
+{
+  "id": "dart-erros",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Erros",
+    "title": "LinceTech Academy - Dart - Erros",
+    "contents": [
+      {
+        "title": "Conversao de numeros",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Validar numeros pares",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Area do retangulo",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Simular criacao de arquivos",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      }
+    ]
+  }
+}

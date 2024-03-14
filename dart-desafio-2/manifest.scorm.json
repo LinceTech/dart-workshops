@@ -1,0 +1,55 @@
+{
+  "id": "dart-desafio-1",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Desafio #2",
+    "title": "LinceTech Academy - Dart - Desafio #2",
+    "contents": [
+      {
+        "title": "Telefones",
+        "contains": "markdown",
+        "res": "de_1/instructions.md"
+      },
+      {
+        "title": "Refatoraca de programas #1",
+        "contains": "markdown",
+        "res": "de_2/instructions.md"
+      },
+      {
+        "title": "Biblioteca de musicas",
+        "contains": "markdown",
+        "res": "de_3/instructions.md"
+      },
+      {
+        "title": "Refatoracao de programas #2",
+        "contains": "markdown",
+        "res": "de_4/instructions.md"
+      },
+      {
+        "title": "Trabalhando com lista",
+        "contains": "markdown",
+        "res": "de_5/instructions.md"
+      },
+      {
+        "title": "Baralho de cartas",
+        "contains": "markdown",
+        "res": "de_6/instructions.md"
+      },
+      {
+        "title": "Fila do mercado",
+        "contains": "markdown",
+        "res": "de_7/instructions.md"
+      },
+      {
+        "title": "Album de figurinhas",
+        "contains": "markdown",
+        "res": "de_8/instructions.md"
+      },
+      {
+        "title": "Busca de pessoas",
+        "contains": "markdown",
+        "res": "de_9/instructions.md"
+      }
+    ]
+  }
+}

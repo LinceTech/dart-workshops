@@ -1,0 +1,35 @@
+{
+  "id": "dart-variaveis",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Variaveis",
+    "title": "LinceTech Academy - Dart - Variaveis",
+    "contents": [
+      {
+        "title": "Definicao de variaveis",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Calculo de médias",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Inverter valores",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Divisões",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      },
+      {
+        "title": "[Extra] Utilizando classes",
+        "contains": "markdown",
+        "res": "ap_5/instructions.md"
+      }
+    ]
+  }
+}

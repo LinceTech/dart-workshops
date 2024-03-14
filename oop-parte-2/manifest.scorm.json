@@ -1,0 +1,30 @@
+{
+  "id": "oop-parte-1",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - OOP #2",
+    "title": "LinceTech Academy - Dart - OOP #2",
+    "contents": [
+      {
+        "title": "Generos musicais",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Animais",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Classes abstratas",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Calculadora",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      }
+    ]
+  }
+}

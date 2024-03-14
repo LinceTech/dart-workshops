@@ -1,0 +1,30 @@
+{
+  "id": "dart-concorrencia",
+  "org": "br.com.lince.academy",
+  "course": {
+    "name": "Dart - Concorrencia",
+    "title": "LinceTech Academy - Dart - Concorrencia",
+    "contents": [
+      {
+        "title": "API de rastreio",
+        "contains": "markdown",
+        "res": "ap_1/instructions.md"
+      },
+      {
+        "title": "Download de imagens",
+        "contains": "markdown",
+        "res": "ap_2/instructions.md"
+      },
+      {
+        "title": "Foguete",
+        "contains": "markdown",
+        "res": "ap_3/instructions.md"
+      },
+      {
+        "title": "Busca de dados",
+        "contains": "markdown",
+        "res": "ap_4/instructions.md"
+      }
+    ]
+  }
+}

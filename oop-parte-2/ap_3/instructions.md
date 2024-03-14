@@ -1,4 +1,4 @@
-## AP3 - Definicao de variaveis
+## AP3 - Classes abstratas
 
 1. Crie duas classes abstratas a seu criterio (as classes devem ser relacionadas a um mesmo contexto)
 2. Em cada classe criada, defina um metodo abstrato de sua preferencia

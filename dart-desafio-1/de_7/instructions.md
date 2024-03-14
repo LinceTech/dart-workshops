@@ -1,4 +1,4 @@
-## DE7 - Numeros
+## DE7 - Somas de numeros
 
 Escreva um programa que receba uma lista de numeros inteiros, e retorne o somatorio dos numeros na lista. Implemente
 essa funcao de tres formas distintas:
