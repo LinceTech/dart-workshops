@@ -1,7 +1,7 @@
 ## AP1 - Anos bissextos
 
-Escreva uma funcao chamada `ehAnoBissexto` que receba um ano como entrada e retorna se o ano e bissexto ou nao.
-No metodo main, demonstre no o metodo funcionando com os valores (bissextos) 2016, 1988, 2000 e nao bissextos 2100,
+Escreva uma função chamada `ehAnoBissexto` que receba um ano como entrada e retorna se o ano e bissexto ou nao.
+No método main, demonstre no método funcionando com os valores (bissextos) 2016, 1988, 2000 e nao bissextos 2100,
 2300, 1993.
 
 ##### Exemplo de saida:

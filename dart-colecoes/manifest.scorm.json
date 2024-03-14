@@ -11,17 +11,17 @@
         "res": "intro.md"
       },
       {
-        "title": "Lista aleatoria",
+        "title": "Lista aleatória",
         "contains": "markdown",
         "res": "ap_1/instructions.md"
       },
       {
-        "title": "Utilizando metodos de lista #1",
+        "title": "Utilizando métodos de lista #1",
         "contains": "markdown",
         "res": "ap_2/instructions.md"
       },
       {
-        "title": "Utilizando metodos de lista #2",
+        "title": "Utilizando métodos de lista #2",
         "contains": "markdown",
         "res": "ap_3/instructions.md"
       },

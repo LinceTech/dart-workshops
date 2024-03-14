@@ -1,15 +1,15 @@
 import 'dart:math';
 
 void main() {
-  // Gerar numero aleatorio
+  // Gerar número aleatorio
   final random = Random();
   final numero = random.nextInt(100);
 
-  // Realizar calculo
+  // Realizar cálculo
   final resultado = Calculadora.dobro(numero);
 
-  // Imprimindo resultado do calculo
-  print("O dobro do numero $numero e: $resultado");
+  // Imprimindo resultado do cálculo
+  print("O dobro do número $numero e: $resultado");
 }
 
 // Definindo classe abstrata

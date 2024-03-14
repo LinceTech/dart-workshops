@@ -1,7 +1,7 @@
-## AP1 - Numeros impares
+## AP1 - Números impares
 
-1. Crie uma funcao que retorne uma lista contendo apenas os numeros impares comecando do zero ate um valor fornecido.
-2. Imprima a lista de numeros conforme exemplo:
+1. Crie uma função que retorne uma lista contendo apenas os números impares começando do zero até um valor fornecido.
+2. Imprima a lista de números conforme exemplo:
    > Impar: 1  
    > Impar: 3  
    > Impar: 5  

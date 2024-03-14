@@ -1,13 +1,13 @@
-## AP2 - Cadeia de funcoes
+## AP2 - Cadeia de funções
 
 Crie um programa atendendo os requisitos abaixo:
 
-1. Crie uma funcao **A** que receba outra funcao como parametro.
-2. Crie uma funcao **B** que receba um numero como parametro.
-3. A funcao **B** devera retornar o resultado de uma operacao aritmetica de sua escolha no parametro recebido.
-4. A funcao **A** devera executar a funcao recebida como parametro duas vezes, passando numeros aleatorios.
-5. A funcao **A** devera retornar a soma das duas execucoes da funcao parametro.
-6. Crie uma funcao **C**, atendendo os mesmo requisitos da funcao **B**.
-7. A funcao `main` devera executar a funcao **A** passando a funcao **B** como parametro.
-8. A funcao `main` devera executar a funcao **A** passando a funcao **C** como parametro.
-9. A funcao `main` devera imprimir os resultados da funcao **A**(**B**) e **A**(**C**).
+1. Crie uma função **A** que receba outra função como parâmetro.
+2. Crie uma função **B** que receba um número como parâmetro.
+3. A função **B** devera retornar o resultado de uma operação aritmética de sua escolha no parâmetro recebido.
+4. A função **A** devera executar a função recebida como parâmetro duas vezes, passando números aleatórios.
+5. A função **A** devera retornar a soma das duas execuções da função parâmetro.
+6. Crie uma função **C**, atendendo os mesmo requisitos da função **B**.
+7. A função `main` devera executar a função **A** passando a função **B** como parâmetro.
+8. A função `main` devera executar a função **A** passando a função **C** como parâmetro.
+9. A função `main` devera imprimir os resultados da função **A**(**B**) e **A**(**C**).

@@ -37,16 +37,16 @@ class _MyWidgetState extends State<MyWidget> {
   var ganhou = false;
   var perdeu = false;
 
-  // Esse metodo e chamado somente uma vez, ao iniciar o state
+  // Esse método e chamado somente uma vez, ao iniciar o state
   @override
   void initState() {
     super.initState();
 
-    // Escolher um numero de 0 a 2 para identificar escolher o botao correto
+    // Escolher um número de 0 a 2 para identificar escolher o botao correto
     botaoCorreto = random.nextInt(3);
   }
 
-  // Tratar a tentativa do usuario
+  // Tratar a tentativa do usuário
   void tentativa(int opcao) {
     setState(() {
       // Verificar se a opcao escolhida esta correta
@@ -57,7 +57,7 @@ class _MyWidgetState extends State<MyWidget> {
         clicks++;
       }
 
-      // Se a quantidade de clicks for maior ou igual a 2, o usuario perdeu
+      // Se a quantidade de clicks for maior ou igual a 2, o usuário perdeu
       if (clicks >= 2 && !ganhou) {
         perdeu = true;
       }
@@ -66,7 +66,7 @@ class _MyWidgetState extends State<MyWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // Se o usuario ganhou, retorna a mensagem de sucesso com o fundo em verde
+    // Se o usuário ganhou, retorna a mensagem de sucesso com o fundo em verde
     if (ganhou) {
       return Container(
         color: Colors.green,

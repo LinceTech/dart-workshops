@@ -1,9 +1,9 @@
 ## AP4 - Calculadora
 
 1. Crie uma classe abstrata chamada `Calculadora`
-2. Na class `Calculadora` defina um metodo estatico chamado `dobro`, que recebe um numero como parametro e retorna o
-   dobro desse numero
-3. Gere um numero aleatoriamente
-4. Utilize o metodo estatico `dobro` da classe `Calculadora` para calcular o dobro do numero digitado e exiba o
+2. Na class `Calculadora` defina um método estatico chamado `dobro`, que recebe um número como parâmetro e retorna o
+   dobro desse número
+3. Gere um número aleatoriamente
+4. Utilize o método estático `dobro` da classe `Calculadora` para calcular o dobro do número digitado e exiba o
    resultado no console:
-   > O dobro do numero 1111 e: 2222
+   > O dobro do número 1111 e: 2222

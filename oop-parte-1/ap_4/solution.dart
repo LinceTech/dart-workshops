@@ -17,7 +17,7 @@ void main() {
   print("Altura: ${pessoa.altura.toStringAsFixed(2)}");
 }
 
-// Definicao da classe
+// Definição da classe
 class Pessoa {
   // Atributos
   String _nome = '';

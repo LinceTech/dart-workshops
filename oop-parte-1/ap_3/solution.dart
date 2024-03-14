@@ -14,12 +14,12 @@ void main() {
     // Incluir na lista de produtos
     produtos.add(produto);
 
-    // Calcular novo preco
+    // Calcular novo preço
     final novoPreco = produto.desconto(3.0);
 
     // Imprimir dados do produto
     print(
-      "Novo preco do produto ${produtos[i].nome} (com desconto): $novoPreco\n",
+      "Novo preço do produto ${produtos[i].nome} (com desconto): $novoPreco\n",
     );
   }
 }
@@ -29,7 +29,7 @@ class Produto {
   String nome = '';
   double preco = 0.0;
 
-  // Calcular preco com desconto
+  // Calcular preço com desconto
   double desconto(double percentual) {
     return preco - (preco * (percentual / 100));
   }

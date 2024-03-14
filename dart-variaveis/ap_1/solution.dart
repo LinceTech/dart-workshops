@@ -1,5 +1,5 @@
 void main() {
-  // Declarando as variaveis
+  // Declarando as variáveis
   String nome = "John";
   String sobrenome = "Doe";
   int idade = 18;
@@ -7,7 +7,7 @@ void main() {
   double peso = 72.8;
   String? nacionalidade = null;
 
-  // Imprimir no console, com a formatacao especificada
+  // Imprimir no console, com a formatação especificada
   print("Nome completo: $nome $sobrenome");
 
   if (idade >= 18) {
@@ -17,9 +17,9 @@ void main() {
   }
 
   if (ativo) {
-    print("Situacao: Ativo");
+    print("Situação: Ativo");
   } else {
-    print("Situacao: Inativo");
+    print("Situação: Inativo");
   }
 
   print("Peso: ${peso.toStringAsFixed(2)}");

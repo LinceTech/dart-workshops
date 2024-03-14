@@ -1,8 +1,8 @@
 void main() {
-  // Executar a funcao caindo no tratamento de exception
+  // Executar a função caindo no tratamento de exception
   programa('letras');
 
-  // Executar a funcao de forma bem sucedida
+  // Executar a função de forma bem sucedida
   programa('1235');
 }
 
@@ -12,6 +12,6 @@ void programa(String valor) {
     int numero = int.parse(valor);
     print("Numero digitado: $numero");
   } catch (e) {
-    print("Entrada invalida. Insira apenas numeros inteiros.");
+    print("Entrada invalida. Insira apenas números inteiros.");
   }
 }

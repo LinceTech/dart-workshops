@@ -16,7 +16,7 @@ void calcularRaios(List<double> raios) {
 
     print(
       'Raio: $raio, area: ${area.toStringAsFixed(2)}, '
-      'perimetro: ${perimetro.toStringAsFixed(2)}.',
+      'perímetro: ${perimetro.toStringAsFixed(2)}.',
     );
   }
 }

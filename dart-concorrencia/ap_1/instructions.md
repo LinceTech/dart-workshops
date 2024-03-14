@@ -1,4 +1,4 @@
-## AP1 - Modifique o programa base utilizando padroes da programacao assincrona para poder retornar o resultado
+## AP1 - Modifique o programa base utilizando padrões da programação assíncrona para poder retornar o resultado
 
 > Inicio  
 > Status de entrega do pacote ...  

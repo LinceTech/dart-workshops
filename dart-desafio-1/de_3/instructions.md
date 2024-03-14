@@ -1,8 +1,8 @@
 ## DE3 - Manipulando texto
 
-Escreva um programa que receba um paragrafo, e imprima no console as seguintes informacoes:
+Escreva um programa que receba um parágrafo, e imprima no console as seguintes informações:
 
-1. Texto do paragrafo;
+1. Texto do parágrafo;
 2. Numero de palavras;
 3. Tamanho do texto;
 4. Numero de frases;
@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et p
 lobortis quam id lacinia porttitor.
 
 Saida esperada no console:
-> Paragrafo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris
+> parágrafo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris
 > lobortis quam id lacinia porttitor.  
 > Numero de palavras: 20  
 > Tamanho do texto: 139  

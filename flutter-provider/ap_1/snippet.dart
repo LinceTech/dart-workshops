@@ -50,7 +50,7 @@ class EstadoListaDePessoas with ChangeNotifier {
     notifyListeners();
   }
 
-  // todo: implementar metodos restantes
+  // todo: implementar métodos restantes
 }
 
 class MyApp extends StatelessWidget {

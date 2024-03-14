@@ -1,8 +1,8 @@
-// Incluir import para gerar numeros aleatorios
+// Incluir import para gerar números aleatórios
 import 'dart:math';
 
 void main() {
-  // Criar gerador de numeros
+  // Criar gerador de números
   final random = Random();
 
   // Utilizando o construtor [List.generate] para criar a lista
@@ -14,6 +14,6 @@ void main() {
   // Remover itens repetidos
   final itensUnicos = lista.toSet();
 
-  // Imprimir itens unicos
-  print("Itens unicos: ${itensUnicos.join(' ; ')}");
+  // Imprimir itens únicos
+  print("Itens únicos: ${itensUnicos.join(' ; ')}");
 }

@@ -4,7 +4,7 @@ void main() {
   final random = Random();
 
   try {
-    // Criando retangulo
+    // Criando retângulo
     final retangulo = Retangulo(
       random.nextDouble() * 99,
       random.nextDouble() * 99,
@@ -12,7 +12,7 @@ void main() {
 
     // Calculando area
     double area = retangulo.calcularArea();
-    print("Area do retangulo: ${area.toStringAsFixed(2)}");
+    print("Area do retângulo: ${area.toStringAsFixed(2)}");
   } on Exception catch (e) {
     // Imprimir mensagem de erro
     print(e);
@@ -28,7 +28,7 @@ class Retangulo implements Forma {
     // Tratamento das dimensoes
     if (base <= 0 || altura <= 0) {
       throw Exception(
-        'Dimensoes invalidas, informe apenas valores positivos maiores que zero',
+        'Dimensões invalidas, informe apenas valores positivos maiores que zero',
       );
     }
   }

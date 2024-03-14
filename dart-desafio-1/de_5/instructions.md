@@ -1,11 +1,11 @@
-## DE5 - Sugestoes de nomes
+## DE5 - Sugestões de nomes
 
-Escreva um programa que gere uma sugestao de nome completo aleatorio, com base em listas pre-definidas de nomes e
+Escreva um programa que gere uma sugestão de nome completo aleatório, com base em listas pre-definidas de nomes e
 sobrenomes.
 
 **Lista de nomes:** Ana, Maria, Francisco, Joao, Pedro, Gabriel, Rafaela, Marcio, Jose, Carlos, Patricia, Helena,
 Camila,
-Mateus, Gabriel, Samuel, Karina, Antonio, Daniel, Joel, Cristiana, Sebastiao, Paula
+Mateus, Gabriel, Samuel, Karina, Antonio, Daniel, Joel, Cristiana, Sebastião, Paula
 
 **Lista de sobrenomes:** Silva, Souza, Almeida, Azevedo, Braga, Barros, Campos, Cardoso, Costa, Teixeira, Santos,
 Rodrigues, Ferreira, Alves, Pereira, Lima, Gomes, Ribeiro, Carvalho, Lopes, Barbosa

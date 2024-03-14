@@ -16,7 +16,7 @@ void main() {
 }
 
 int descobrirDesconto(double valorOriginal, double valorComDesconto) {
-  // Calcular o percentual que o preco atual representa do valor original
+  // Calcular o percentual que o preço atual representa do valor original
   final percentual = (valorComDesconto * 100) ~/ valorOriginal;
 
   // Retorna o percentual que foi aplicado no produto

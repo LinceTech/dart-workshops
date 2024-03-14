@@ -2,8 +2,8 @@
   "id": "dart-elementos-logicos",
   "org": "br.com.lince.academy",
   "course": {
-    "name": "Dart - Elementos logicos",
-    "title": "LinceTech Academy - Dart - Elementos logicos",
+    "name": "Dart - Elementos lógicos",
+    "title": "LinceTech Academy - Dart - Elementos lógicos",
     "contents": [
       {
         "title": "Introdução",
@@ -11,7 +11,7 @@
         "res": "intro.md"
       },
       {
-        "title": "Numeros impares",
+        "title": "Números impares",
         "contains": "markdown",
         "res": "ap_1/instructions.md"
       },
@@ -21,7 +21,7 @@
         "res": "ap_2/instructions.md"
       },
       {
-        "title": "Soma de numeros",
+        "title": "Soma de números",
         "contains": "markdown",
         "res": "ap_3/instructions.md"
       },
@@ -31,7 +31,7 @@
         "res": "ap_4/instructions.md"
       },
       {
-        "title": "Simplificando comparacoes",
+        "title": "Simplificando comparações",
         "contains": "markdown",
         "res": "ap_5/instructions.md"
       }

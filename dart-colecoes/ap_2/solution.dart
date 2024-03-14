@@ -1,8 +1,8 @@
-// Incluir import para gerar numeros aleatorios
+// Incluir import para gerar números aleatórios
 import 'dart:math';
 
 void main() {
-  // Criar gerador de numeros
+  // Criar gerador de números
   final random = Random();
 
   // Utilizando o construtor [List.generate] para criar a lista
@@ -11,7 +11,7 @@ void main() {
   // Imprimir lista original
   print("Lista original: ${lista.join(' ; ')}");
 
-  // Remover numeros pares
+  // Remover números pares
   lista.removeWhere((item) => item.isEven);
 
   // Imprimir lista atualizada

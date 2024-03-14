@@ -2,7 +2,7 @@ void main() {
   // Criando animal
   final pato = Pato();
 
-  // Executando metodos
+  // Executando métodos
   pato.comer();
   pato.voar();
 }

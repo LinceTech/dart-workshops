@@ -38,14 +38,14 @@ class MyWidget extends StatefulWidget {
 class _MyWidgetState extends State<MyWidget> {
   final random = Random();
 
-  // Variaveis
+  // Variáveis
   var vitorias = 0;
   var derrotas = 0;
   var botaoCorreto = 0;
   var clicks = 0;
   var estadoDoJogo = EstadoDoJogo.emAndamento;
 
-  // Esse metodo e chamado somente uma vez, ao iniciar o state
+  // Esse método e chamado somente uma vez, ao iniciar o state
   @override
   void initState() {
     super.initState();
@@ -53,7 +53,7 @@ class _MyWidgetState extends State<MyWidget> {
     iniciarJogo();
   }
 
-  // Tratar a tentativa do usuario
+  // Tratar a tentativa do usuário
   void tentativa(int opcao) {
     setState(() {
       // Verificar se a opcao escolhida esta correta
@@ -65,7 +65,7 @@ class _MyWidgetState extends State<MyWidget> {
         clicks++;
       }
 
-      // Se a quantidade de clicks for maior ou igual a 2, o usuario perdeu
+      // Se a quantidade de clicks for maior ou igual a 2, o usuário perdeu
       if (clicks >= 2 && estadoDoJogo != EstadoDoJogo.ganhou) {
         estadoDoJogo = EstadoDoJogo.perdeu;
         derrotas++;
@@ -75,7 +75,7 @@ class _MyWidgetState extends State<MyWidget> {
 
   void iniciarJogo() {
     setState(() {
-      // Escolher um numero de 0 a 2 para identificar escolher o botao correto
+      // Escolher um número de 0 a 2 para identificar escolher o botao correto
       botaoCorreto = random.nextInt(3);
 
       // Limpar o contador de clicks
@@ -89,10 +89,10 @@ class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
     return switch (estadoDoJogo) {
-    // Se o usuario ganhou, retorna a mensagem de sucesso com o fundo em verde
+    // Se o usuário ganhou, retorna a mensagem de sucesso com o fundo em verde
       EstadoDoJogo.ganhou => GanhouJogo(iniciarJogo),
 
-    // Se o usuario perdeu, retorna a mensagem de fracasso com o fundo em vermelho
+    // Se o usuário perdeu, retorna a mensagem de fracasso com o fundo em vermelho
       EstadoDoJogo.perdeu => PerdeuJogo(iniciarJogo),
 
     // Jogo ainda esta em andamento
@@ -104,7 +104,7 @@ class _MyWidgetState extends State<MyWidget> {
 class PerdeuJogo extends StatelessWidget {
   const PerdeuJogo(this.reiniciar);
 
-  // Essa funcao sera chamada no state para reiniciar o jogo
+  // Essa função sera chamada no state para reiniciar o jogo
   final void Function() reiniciar;
 
   @override
@@ -127,7 +127,7 @@ class PerdeuJogo extends StatelessWidget {
 class GanhouJogo extends StatelessWidget {
   const GanhouJogo(this.reiniciar);
 
-  // Essa funcao sera chamada no state para reiniciar o jogo
+  // Essa função sera chamada no state para reiniciar o jogo
   final void Function() reiniciar;
 
   @override
@@ -158,7 +158,7 @@ class JogoEmAndamento extends StatelessWidget {
   final int vitorias;
   final int derrotas;
 
-  // Essa funcao sera chamada no state quando usuario interagir com um dos botoes
+  // Essa função sera chamada no state quando usuário interagir com um dos botoes
   final void Function(int) tentativa;
 
   @override

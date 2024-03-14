@@ -1,11 +1,11 @@
-## AP2 - Validar numeros pares
+## AP2 - Validar números pares
 
-Crie uma funcao que receba como entrada um numero inteiro, aceitando apenas numeros pares, utilize uma estrutura
-try-catch para tratar possiveis erros. Se a funcao recebar um valor impar, lance uma exception e no tratamento da
+Crie uma função que receba como entrada um número inteiro, aceitando apenas números pares, utilize uma estrutura
+try-catch para tratar possíveis erros. Se a função receber um valor impar, lance uma exception e no tratamento da
 exception imprima a mensagem de erro:
 
-> Exception: Entrada invalida. Insira apenas numeros pares.
+> Exception: Entrada invalida. Insira apenas números pares.
 
-Caso seja informado um numero par, exiba:
+Caso seja informado um número par, exiba:
 
-> Entrada correta, voce inseriu um numero par.
+> Entrada correta, voce inseriu um número par.

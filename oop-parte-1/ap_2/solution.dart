@@ -1,15 +1,15 @@
 void main() {
-  // Criar retangulo
+  // Criar retângulo
   final retangulo = Retangulo(5.0, 3.0);
 
   // Calcular area
   double area = retangulo.calcularArea();
 
   // Imprimir area
-  print("Area do retangulo: $area");
+  print("Area do retângulo: $area");
 }
 
-// Definicao da classe
+// Definição da classe
 class Retangulo {
   // Construtor padrao
   Retangulo(this.largura, this.altura);

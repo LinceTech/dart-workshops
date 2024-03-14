@@ -48,7 +48,7 @@ class Pessoa {
     print('Calorias consumidas: $_caloriasConsumidas');
   }
 
-  /// Consome um produto e aumenta o numero de calorias
+  /// Consome um produto e aumenta o número de calorias
   void refeicao(FornecedorDeBebidas fornecedor) {
     final produto = fornecedor.fornecer();
     print('Consumindo ${produto.nome} (${produto.calorias} calorias)');

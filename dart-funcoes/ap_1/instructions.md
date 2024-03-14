@@ -1,13 +1,13 @@
-## AP1 - Praticando funcoes
+## AP1 - Praticando funções
 
 Crie um programa que atenda os requisitos abaixo:
 
-- Inicialize duas listas com 5 numeros aleatorios entre 0 e 100
-- Crie uma funcao receba uma lista como parametro e a imprima na seguinte formatacao `Lista: 10, 5, 39, 45, 1`
-- Crie uma funcao que receba duas listas, e retorne uma nova lista de mesmo tamanho contendo a soma dos itens de mesmo
-  indice nas duas listas iniciais (ver exemplo).
+- Inicialize duas listas com 5 números aleatórios entre 0 e 100
+- Crie uma função receba uma lista como parâmetro e a imprima na seguinte formatação `Lista: 10, 5, 39, 45, 1`
+- Crie uma função que receba duas listas, e retorne uma nova lista de mesmo tamanho contendo a soma dos itens de mesmo
+  índice nas duas listas iniciais (ver exemplo).
 - Imprima as acoes realizadas e a lista final
-- [Bonus] Validacoes:
+- [Bonus] Validações:
     - Caso tente imprimir uma lista vazia, imprimir apenas `Lista vazia`
     - Caso as listas tenham tamanhos diferentes, retornar uma lista vazia
 

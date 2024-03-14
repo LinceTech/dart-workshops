@@ -13,7 +13,7 @@ class Pessoa {
     this.nacionalidade,
   );
 
-  // Declarando as variaveis
+  // Declarando as variáveis
   final String nome;
   final String sobrenome;
   final int idade;
@@ -25,7 +25,7 @@ class Pessoa {
   String toString() {
     var imprimirFormatado = "";
 
-    // Imprimir no console, com a formatacao especificada
+    // Imprimir no console, com a formatação especificada
     imprimirFormatado += "Nome completo: $nome $sobrenome\n";
 
     if (idade >= 18) {
@@ -35,9 +35,9 @@ class Pessoa {
     }
 
     if (ativo) {
-      imprimirFormatado += "Situacao: Ativo\n";
+      imprimirFormatado += "Situação: Ativo\n";
     } else {
-      imprimirFormatado += "Situacao: Inativo\n";
+      imprimirFormatado += "Situação: Inativo\n";
     }
 
     imprimirFormatado += "Peso: ${peso.toStringAsFixed(2)}\n";

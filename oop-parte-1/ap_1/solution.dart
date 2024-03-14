@@ -8,7 +8,7 @@ void main() {
   print("Saldo atual: ${conta.saldo}");
 }
 
-// Definicao da classe
+// Definição da classe
 class ContaBancaria {
   // Construtor padrao
   ContaBancaria(this.saldo, this.titular);

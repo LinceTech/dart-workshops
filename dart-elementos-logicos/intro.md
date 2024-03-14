@@ -1,7 +1,7 @@
-# ED5 - Exercicio pratico Dart - Elementos lógicos
+# ED5 - Exercício pratico Dart - Elementos lógicos
 
-Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_e5" para salvar seu progresso. Para
-cada exercicio realizado, crie um novo arquivo chamado _"ed5_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
+Antes de começar a programar, crie um novo projeto no git chamado "academy_pratica_e5" para salvar seu progresso. Para
+cada exercício realizado, crie um novo arquivo chamado _"ed5_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
 
 - academy_pratica_e5
     - ed5_ap1.dart

@@ -1,7 +1,7 @@
-## AP2 - Lista de numeros
+## AP2 - Lista de números
 
-Implemente uma funcao que receba uma lista de strings e retorne a lista convertida para numeros. Se o texto nao puder
-ser convertido para string, deve ser incluido na lista o valor zero (0). Para essa atividade, _**nao e permitido**_
+Implemente uma função que receba uma lista de strings e retorne a lista convertida para números. Se o texto nao puder
+ser convertido para string, deve ser incluído na lista o valor zero (0). Para essa atividade, _**nao e permitido**_
 utilizar os comandos `if/else`.
 
 Imprima a lista de valores convertidos conforme exemplo abaixo.

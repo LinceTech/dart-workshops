@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void main() {
-    // Inicializando as variaveis
+    // Inicializando as variáveis
     final random = Random();
     final valorA = random.nextInt(100);
     final valorB = random.nextInt(100);

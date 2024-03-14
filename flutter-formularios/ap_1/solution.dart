@@ -73,10 +73,10 @@ class _FormularioState extends State<_Formulario> {
                   return "Nome obrigatorio";
                 }
                 if (value!.length < 2) {
-                  return "Nome precisa ter no minimo duas letras";
+                  return "Nome precisa ter no mínimo duas letras";
                 }
                 if (value.startsWith(RegExp(r'[^A-Z]'))) {
-                  return "Nome precisa comecar com letra maiuscula";
+                  return "Nome precisa começar com letra maiuscula";
                 }
                 return null;
               },

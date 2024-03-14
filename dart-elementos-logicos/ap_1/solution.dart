@@ -8,12 +8,12 @@ void main() {
   }
 }
 
-// Definicao do metodo
+// Definição do método
 List<int> gerarNumerosImpares(int maximo) {
   var contador = 0;
   var sequencia = <int>[];
 
-  // Gerar numeros impares ate chegar no valor do parametro
+  // Gerar números impares ate chegar no valor do parâmetro
   while (contador < maximo) {
     if (contador.isOdd) {
       sequencia.add(contador);

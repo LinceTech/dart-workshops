@@ -1,7 +1,7 @@
-# ED4 - Exercicio pratico Dart - Operadores
+# ED4 - exercício pratico Dart - Operadores
 
-Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_e4" para salvar seu progresso. Para
-cada exercicio realizado, crie um novo arquivo chamado _"ed4_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
+Antes de começar a programar, crie um novo projeto no git chamado "academy_pratica_e4" para salvar seu progresso. Para
+cada exercício realizado, crie um novo arquivo chamado _"ed4_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
 
 - academy_pratica_e4
     - ed4_ap1.dart

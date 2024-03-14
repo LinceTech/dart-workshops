@@ -5,17 +5,17 @@ void main() {
   final random = Random();
   final raios = List.generate(10, (_) => random.nextDouble() * 99 + 1);
 
-  // Chamando calculo de raios
+  // Chamando cálculo de raios
   calcularRaios(raios);
 }
 
-// Calcula a area de um circulo
+// Calcula a area de um círculo
 double areaCirculo(double raio) => pi * pow(raio, 2);
 
-// Calcula o perimetro de um circulo
+// Calcula o perímetro de um círculo
 double perimetroCirculo(double raio) => 2 * pi * raio;
 
-// Recebe uma lista de raios, e calcula a area e perimetro desses circulos
+// Recebe uma lista de raios, e calcula a area e perímetro desses círculos
 void calcularRaios(List<double> raios) {
   for (final raio in raios) {
     final area = areaCirculo(raio);
@@ -24,7 +24,7 @@ void calcularRaios(List<double> raios) {
     print(
       'Raio: ${raio.toStringAsFixed(2)}, '
       'area: ${area.toStringAsFixed(2)}, '
-      'perimetro: ${perimetro.toStringAsFixed(2)}.',
+      'perímetro: ${perimetro.toStringAsFixed(2)}.',
     );
   }
 }

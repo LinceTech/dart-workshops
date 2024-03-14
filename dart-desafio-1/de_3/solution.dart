@@ -5,7 +5,7 @@ void main() {
   final paragrafo = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris lobortis quam id lacinia porttitor.';
   final palavras = contarPalavras(paragrafo);
   final tamanhoDoTexto = contarTamanhoTexto(paragrafo);
-  final numeroDeFrases = contarNumeroDeFrases(paragrafo);
+  final númeroDeFrases = contarNumeroDeFrases(paragrafo);
   final numeroDeVogais = contarNumeroDeVogais(paragrafo);
   final consoantesEncontradas = pegarConsoantesUtilizadas(paragrafo);
 

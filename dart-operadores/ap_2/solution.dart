@@ -13,10 +13,10 @@ void main() {
     '78'
   ];
 
-  // Convertendo lista para numeros
+  // Convertendo lista para números
   final numeros = converterLista(textos);
 
-  // Imprimir a lista de numeros
+  // Imprimir a lista de números
   print('Lista convertida: ${numeros.join(', ')}');
 }
 
@@ -24,13 +24,13 @@ List<int> converterLista(List<String> textos) {
   final lista = <int>[];
 
   for (var texto in textos) {
-    // Tentamos converter o texto para numero
+    // Tentamos converter o texto para número
     int? numero = int.tryParse(texto);
 
-    // Se o numero for null, mudamos para 0 (zero)
+    // Se o número for null, mudamos para 0 (zero)
     numero ??= 0;
 
-    // Incluir numero convertido na lista
+    // Incluir número convertido na lista
     lista.add(numero);
   }
 

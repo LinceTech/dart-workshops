@@ -1,3 +1,3 @@
-## AP5 - Simplificando comparacoes
+## AP5 - Simplificando comparações
 
-O programa base tem como objetivo apenas retornar o valor recebido. Reescreva o codigo sem utilizar `if-else`
+O programa base deve apenas retornar o valor recebido. Reescreva o código sem utilizar `if-else`

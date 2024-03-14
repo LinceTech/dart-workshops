@@ -16,7 +16,7 @@
         "res": "ap_1/instructions.md"
       },
       {
-        "title": "Lista de numeros",
+        "title": "Lista de números",
         "contains": "markdown",
         "res": "ap_2/instructions.md"
       },
@@ -26,7 +26,7 @@
         "res": "ap_3/instructions.md"
       },
       {
-        "title": "Definicao de variaveis",
+        "title": "Definição de variáveis",
         "contains": "markdown",
         "res": "ap_4/instructions.md"
       },

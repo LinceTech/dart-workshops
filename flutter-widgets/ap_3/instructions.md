@@ -2,8 +2,8 @@
 
 Utilizando os widgets vistos, crie um app que reproduza o layout da imagem, e os comportamentos definidos:
 
-- Ter um botao que alterne a forma exibida entre um circulo ou um quadrado
-- Ao alterar a forma, o texto do botao deve ser atualizado (se a forma atual for circulo, o botao deve ser "Alterar para
+- Ter um botao que alterne a forma exibida entre um círculo ou um quadrado
+- Ao alterar a forma, o texto do botao deve ser atualizado (se a forma atual for círculo, o botao deve ser "Alterar para
   quadrado")
 - Ter um botao que seleciona uma cor aleatoria para a forma exibida
 

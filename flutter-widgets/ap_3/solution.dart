@@ -34,7 +34,7 @@ class _MyWidgetState extends State<MyWidget> {
   var cor = Colors.red;
 
   String get textoBotao =>
-      quadrado ? 'Mudar para circulo' : 'Mudar para quadrado';
+      quadrado ? 'Mudar para círculo' : 'Mudar para quadrado';
 
   @override
   Widget build(BuildContext context) {

@@ -1,12 +1,12 @@
-# EF3 - Exercicio pratico Flutter
+# EF3 - exercício pratico Flutter
 
-Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_f3" para salvar seu progresso. Para
-cada exercicio realizado, crie um novo arquivo chamado _"ef3_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
+Antes de começar a programar, crie um novo projeto no git chamado "academy_pratica_f3" para salvar seu progresso. Para
+cada exercício realizado, crie um novo arquivo chamado _"ef3_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
 
 - academy_pratica_f3
   - ef3_ap1.dart
 
-## AP1 - Cores aleatorias
+## AP1 - Cores aleatórias
 
 Crie um aplicativo com um formulario, com as seguintes caracteristicas:
 
@@ -15,9 +15,9 @@ Crie um aplicativo com um formulario, com as seguintes caracteristicas:
 - **Nome**:
   - Nao pode ser vazio
   - Nao pode ter menos de 3 letras
-  - Precisa comecar com uma letra maiuscula
+  - Precisa começar com uma letra maiuscula
 - **Idade**:
-  - Precisa ser um numero valida
+  - Precisa ser um número valida
   - Precisa ser maior ou igual a 18
 - **Indicador de inativo**
 

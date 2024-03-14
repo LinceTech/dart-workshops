@@ -10,7 +10,7 @@ void main() {
   print("Valor A: $valorA");
   print("Valor B: $valorB");
 
-  // Inverter variaveis
+  // Inverter variáveis
   final auxiliar = valorA;
   valorA = valorB;
   valorB = auxiliar;

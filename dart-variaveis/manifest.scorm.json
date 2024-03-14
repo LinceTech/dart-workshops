@@ -2,8 +2,8 @@
   "id": "dart-variaveis",
   "org": "br.com.lince.academy",
   "course": {
-    "name": "Dart - Variaveis",
-    "title": "LinceTech Academy - Dart - Variaveis",
+    "name": "Dart - Variáveis",
+    "title": "LinceTech Academy - Dart - Variáveis",
     "contents": [
       {
         "title": "Introdução",
@@ -11,7 +11,7 @@
         "res": "intro.md"
       },
       {
-        "title": "Definicao de variaveis",
+        "title": "Definição de variáveis",
         "contains": "markdown",
         "res": "ap_1/instructions.md"
       },

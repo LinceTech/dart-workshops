@@ -2,8 +2,8 @@
 
 Utilizando os widgets vistos, crie um app que reproduza o layout da imagem, considerando as seguintes caracteristicas:
 
-- Retangulos internos: 50 x 50
-- Retangulos externos: 100 x 100
+- Retângulos internos: 50 x 50
+- Retângulos externos: 100 x 100
 - Cores, em sequencia:
   - Vermelho, Verde, Azul
   - Ciano, Roxo, Amarelo

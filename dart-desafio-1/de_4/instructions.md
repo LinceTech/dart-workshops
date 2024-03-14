@@ -1,7 +1,7 @@
 ## DE4 - Manipulando datas
 
-Escreva um programa que some 18 dias de semana (ignorar sabado e domingo) partindo da data atual, e imprima a data atual
-e data calculada formatada no padrao dia/mes/ano (ex.: 01/01/2022).
+Escreva um programa que some 18 dias de semana (ignorar sábado e domingo) partindo da data atual, e imprima a data atual
+e data calculada formatada no padrão dia/mes/ano (ex.: 01/01/2022).
 
 Tempo do desafio: __20 minutos__
 

@@ -1,14 +1,14 @@
-# EF6 - Exercicio pratico Flutter
+# EF6 - exercício pratico Flutter
 
-Antes de comecar a programar, crie um novo projeto no git chamado "academy_pratica_f6" para salvar seu progresso. Para
-cada exercicio realizado, crie um novo arquivo chamado _"ef6_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
+Antes de começar a programar, crie um novo projeto no git chamado "academy_pratica_f6" para salvar seu progresso. Para
+cada exercício realizado, crie um novo arquivo chamado _"ef6_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
 
 - academy_pratica_f6
     - ef6_ap1.dart
 
 ## AP1 - Lista de cores
 
-Crie um aplicativo em Flutter que permita o usuario:
+Crie um aplicativo em Flutter que permita o usuário:
 
 - Ver a lista de pessoas cadastradas
 - Incluir novas pessoas na lista
@@ -42,5 +42,5 @@ O aplicativo precisa ser dividido entre 5 telas:
 - Tela de listagem de pessoas (filtro deve ser nessa tela)
 - Tela de inclusao e edição de pessoas
 
-Para desenvolver esse aplicativo, utilize o codigo base fornecido implementando um Provider para compartilhar o estado
+Para desenvolver esse aplicativo, utilize o código base fornecido implementando um Provider para compartilhar o estado
 da lista de pessoas entre as telas solicitadas. 

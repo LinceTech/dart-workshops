@@ -11,7 +11,7 @@
         "res": "intro.md"
       },
       {
-        "title": "Raios e perimetros",
+        "title": "Raios e perímetros",
         "contains": "markdown",
         "res": "de_1/instructions.md"
       },
@@ -31,17 +31,17 @@
         "res": "de_4/instructions.md"
       },
       {
-        "title": "Sugestoes de nomes",
+        "title": "Sugestões de nomes",
         "contains": "markdown",
         "res": "de_5/instructions.md"
       },
       {
-        "title": "Numeros",
+        "title": "Números",
         "contains": "markdown",
         "res": "de_6/instructions.md"
       },
       {
-        "title": "Somas de numeros",
+        "title": "Somas de números",
         "contains": "markdown",
         "res": "de_7/instructions.md"
       }

@@ -3,7 +3,7 @@ import 'dart:async';
 Future<String> consultarAPI(String codigoRastreamento) async {
   await Future.delayed(Duration(seconds: 2));
 
-  // Simulacao de consulta a API com codigo de rastreamento
+  // Simulacao de consulta a API com código de rastreamento
   if (codigoRastreamento == 'ABC123') {
     return 'Em transito';
   } else if (codigoRastreamento == 'XYZ789') {
@@ -11,7 +11,7 @@ Future<String> consultarAPI(String codigoRastreamento) async {
   } else if (codigoRastreamento == 'DEF456') {
     return 'Atrasado';
   } else {
-    return 'Codigo de rastreamento invalido';
+    return 'Código de rastreamento invalido';
   }
 }
 

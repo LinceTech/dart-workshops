@@ -8,7 +8,7 @@ void main() {
     final numeroAleatorio = random.nextInt(25) + 1;
     final letraCorrespondente = pegarLetra(numeroAleatorio);
 
-    // Imprimir numero e letra
+    // Imprimir número e letra
     print('Numero $numeroAleatorio -> Letra $letraCorrespondente');
   }
 }

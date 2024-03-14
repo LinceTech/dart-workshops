@@ -11,11 +11,11 @@ enum GenerosMusicais {
 }
 
 void main() {
-  // Gerar numero aleatorio
+  // Gerar número aleatorio
   final numeroAleatorio = Random().nextInt(GenerosMusicais.values.length);
   print(numeroAleatorio);
 
-  // Pegar um valor do enum com base no numero gerado
+  // Pegar um valor do enum com base no número gerado
   final generoFavorito = GenerosMusicais.values[numeroAleatorio];
   switch (generoFavorito) {
     case GenerosMusicais.trap:
