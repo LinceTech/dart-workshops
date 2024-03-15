@@ -1,11 +1,12 @@
 # Exercício prático Dart - Coleções
 
-Essa lista de exercícios visa fixar os tópicos apresentados nas aulas. Para ter o maior aproveitamento desse conteúdo,
+Essa lista de exercícios visa fixar os tópicos apresentados nas aulas.  
+Para ter o maior aproveitamento desse conteúdo,
 fique atento as seguintes instruções:
 
 ### Git
 
-Mantenha todo o código produzido em um repositório no [GitHub](https://github.com/). Siga o padrão de pastas/arquivos
+Mantenha todo o código produzido em um repositório no [GitHub](https://github.com/), siga o padrão de pastas/arquivos
 especificados abaixo.
 
 - `/seu_repositorio`   _(pasta principal de seu repositório)_
@@ -26,9 +27,11 @@ especificados abaixo.
 
 ### Ferramenta de desenvolvimento
 
-A resolução das atividades deixa livre à sua escolha da ferramenta de desenvolvimento utilizada. Caso não tenha
-configurado seu computador, você pode utilizar uma plataforma online para desenvolver as atividades, mas não esqueça de
+A resolução das atividades deixa livre à sua escolha da ferramenta de desenvolvimento utilizada. Você pode configurar o
+ambiente em seu computador ou mesmo utilizar uma plataforma online para desenvolver as atividades, mas não esqueça de
 enviar o código para o Git:
 
-- [DartPad](https://dartpad.dev/)
-- [Zapp](https://zapp.run/edit/dart)
+- Downloads: [Flutter](https://docs.flutter.dev/get-started/install),
+  [Android Studio](https://developer.android.com/studio),
+  [VS Code](https://code.visualstudio.com/)
+- Editores online: [DartPad](https://dartpad.dev/), [Zapp](https://zapp.run/edit/dart)
