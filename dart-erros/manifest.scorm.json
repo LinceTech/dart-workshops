@@ -1,6 +1,7 @@
 {
   "id": "dart-erros",
   "org": "br.com.lince.academy",
+  "theme": "idea",
   "course": {
     "name": "Dart - Erros",
     "title": "LinceTech Academy - Dart - Erros",

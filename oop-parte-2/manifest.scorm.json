@@ -1,6 +1,7 @@
 {
   "id": "oop-parte-1",
   "org": "br.com.lince.academy",
+  "theme": "idea",
   "course": {
     "name": "Dart - OOP #2",
     "title": "LinceTech Academy - Dart - OOP #2",
