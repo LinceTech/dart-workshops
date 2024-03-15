@@ -13,7 +13,7 @@ Future<void> main() async {
 Future<void> baixarImagem(String url) async {
   await Future.delayed(Duration(seconds: 2));
 
-  // Simulacao de download da imagem
+  // Simulação de download da imagem
   print('Imagem $url baixada com sucesso!');
 }
 
@@ -24,6 +24,5 @@ Future<void> baixarImagens(List<String> urls) async {
     await baixarImagem(url);
   }
 
-  print('Download concluido com sucesso!');
+  print('Download concluído com sucesso!');
 }
-

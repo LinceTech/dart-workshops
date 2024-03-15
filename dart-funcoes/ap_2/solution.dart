@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void main() {
-  // Chamando as funções conforme especificacao
+  // Chamando as funções conforme especificação
   final resultado1 = funcaoA(funcaoB);
   final resultado2 = funcaoA(funcaoC);
 
@@ -10,7 +10,7 @@ void main() {
   print('A(C) = $resultado2');
 }
 
-// Funcao A recebe outra função como parâmetro, e a executa duas vezes,
+// Função A recebe outra função como parâmetro, e a executa duas vezes,
 // retornando a soma das execuções.
 int funcaoA(int Function(int) funcaoParametro) {
   final random = Random();
@@ -21,12 +21,12 @@ int funcaoA(int Function(int) funcaoParametro) {
   return soma;
 }
 
-// Funcao B retorna o parâmetro multiplicado por 2
+// Função B retorna o parâmetro multiplicado por 2
 int funcaoB(int parametro) {
   return parametro * 2;
 }
 
-// Funcao C retorno o resto da divisão do parâmetro por 2
+// Função C retorno o resto da divisão do parâmetro por 2
 int funcaoC(int parametro) {
   return parametro % 2;
 }

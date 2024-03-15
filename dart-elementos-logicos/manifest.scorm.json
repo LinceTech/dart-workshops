@@ -17,7 +17,7 @@
         "res": "ap_1/instructions.md"
       },
       {
-        "title": "Sequencia do alfabeto",
+        "title": "Sequência do alfabeto",
         "contains": "markdown",
         "res": "ap_2/instructions.md"
       },
@@ -35,6 +35,11 @@
         "title": "Simplificando comparações",
         "contains": "markdown",
         "res": "ap_5/instructions.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas/respostas.md"
       }
     ]
   }

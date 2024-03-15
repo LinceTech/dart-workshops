@@ -35,6 +35,11 @@
         "title": "Pessoas e idades",
         "contains": "markdown",
         "res": "ap_5/instructions.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas/respostas.md"
       }
     ]
   }

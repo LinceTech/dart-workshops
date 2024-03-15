@@ -22,7 +22,7 @@
         "res": "ap_2/instructions.md"
       },
       {
-        "title": "Calculo de área",
+        "title": "Cálculo de area e perímetro",
         "contains": "markdown",
         "res": "ap_3/instructions.md"
       },
@@ -30,6 +30,11 @@
         "title": "Conversão de base",
         "contains": "markdown",
         "res": "ap_4/instructions.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas/respostas.md"
       }
     ]
   }

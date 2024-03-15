@@ -12,10 +12,10 @@ void main() {
 
 bool ehAnoBissexto(int ano) {
   if (ano % 100 == 0) {
-    // Anos terminando em 00 precisam ser divisiveis por 400 para serem bissexto
+    // Anos terminando em 00 precisam ser divisíveis por 400 para serem bissexto
     return (ano % 400) == 0;
   } else {
-    // Anos nao terminando em 00 precisam ser divisiveis por 4 para serem bissexto
+    // Anos nao terminando em 00 precisam ser divisíveis por 4 para serem bissexto
     return (ano % 4) == 0;
   }
 }

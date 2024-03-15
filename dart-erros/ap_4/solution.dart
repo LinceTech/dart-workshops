@@ -1,6 +1,6 @@
 void main() {
   try {
-    // Definindo um nome arbitrario para o arquivo
+    // Definindo um nome arbitrário para o arquivo
     final nomeArquivo = 'bloco.txt';
 
     ArquivoTexto arquivoTexto = ArquivoTexto(nomeArquivo);
@@ -28,7 +28,7 @@ class ArquivoTexto implements Arquivo {
       // Simula a abertura do arquivo
       throw Exception("Erro ao abrir o arquivo $nome");
     } catch (e) {
-      print('Relancar a exception');
+      print('Relançar a exception');
       rethrow;
     }
   }

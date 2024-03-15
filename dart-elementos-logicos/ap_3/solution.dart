@@ -3,7 +3,7 @@ import 'dart:math';
 void main() {
   final random = Random();
 
-  // Gerar número aleatorio
+  // Gerar número aleatório
   final numero = random.nextInt(900) + 100;
   final soma = somaDosPares(numero);
 

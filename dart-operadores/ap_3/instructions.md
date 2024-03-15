@@ -1,4 +1,4 @@
-## AP3 - Remover da lista
+## Remover da lista
 
 1. Implemente uma função que receba uma lista e um elemento opcional como parâmetros, com objetivo de remover o elemento
    fornecido da lista.

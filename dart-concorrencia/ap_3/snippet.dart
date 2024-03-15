@@ -1,7 +1,7 @@
 void main() {
-  print('Iniciando lancamento');
+  print('Iniciando lançamento');
 
   // todo: implementar contagem regressiva
 
-  print('Foguete lancado!');
+  print('Foguete lançado!');
 }

@@ -112,7 +112,7 @@ class PerdeuJogo extends StatelessWidget {
     return Container(
       color: Colors.red,
       child: Column(children: [
-        const Text('Voce perdeu'),
+        const Text('Você perdeu'),
         ElevatedButton(
           child: const Text('Jogar novamente'),
           onPressed: () {
@@ -135,7 +135,7 @@ class GanhouJogo extends StatelessWidget {
     return Container(
       color: Colors.green,
       child: Column(children: [
-        const Text('Voce ganhou'),
+        const Text('Você ganhou'),
         ElevatedButton(
           child: const Text('Jogar novamente'),
           onPressed: () {

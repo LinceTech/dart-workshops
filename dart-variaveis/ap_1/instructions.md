@@ -1,4 +1,4 @@
-## AP1 - Definição de variáveis
+## Definição de variáveis
 
 Crie um programa que declare variáveis atendendo os requisitos da tabela abaixo, inicialize-as com algum valor de sua
 preferência e imprima no console com a formatação especificada.

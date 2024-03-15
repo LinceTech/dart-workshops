@@ -1,4 +1,4 @@
-## AP3 - Funções para cálculo de area
+## Cálculo de area e perímetro
 
 Escreva um programa que receba uma lista de raios de círculos e com base nos raios, calcule o area e o perímetro de cada
 círculo, imprimindo esses dados no console.

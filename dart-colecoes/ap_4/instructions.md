@@ -1,4 +1,4 @@
-# AP4 - Utilizando mapas
+# Utilizando mapas
 
 Crie um programa que utilize um mapa para relacionar uma lista de cidades com a sigla do estado onde essa cidade e
 localizada. Com o mapa de cidades por estado, implemente as seguintes acoes:

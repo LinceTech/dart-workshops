@@ -10,19 +10,19 @@ void main() {
 
 // Definição da classe
 class ContaBancaria {
-  // Construtor padrao
+  // Construtor padrão
   ContaBancaria(this.saldo, this.titular);
 
   // Atributos
   double saldo;
   String titular;
 
-  // Metodo para incrementar valor da conta
+  // Método para incrementar valor da conta
   void depositar(double valor) {
     saldo += valor;
   }
 
-  // Metodo para decrementar valor da conta
+  // Método para decrementar valor da conta
   void sacar(double valor) {
     if (valor <= saldo) {
       saldo -= valor;

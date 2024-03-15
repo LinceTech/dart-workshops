@@ -24,11 +24,11 @@ void imprimirNumeros(List<int> numeros) {
   }
 }
 
-// Retorna o número recebido em sua representacao binaria
+// Retorna o número recebido em sua representação binaria
 String converterParaBinario(int numero) => numero.toRadixString(2);
 
-// Retorna o número recebido em sua representacao octal
+// Retorna o número recebido em sua representação octal
 String converterParaOctal(int numero) => numero.toRadixString(8);
 
-// Retorna o número recebido em sua representacao hexadecimal
+// Retorna o número recebido em sua representação hexadecimal
 String converterParaHexadecimal(int numero) => numero.toRadixString(8);

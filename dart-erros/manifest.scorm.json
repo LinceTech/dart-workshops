@@ -22,7 +22,7 @@
         "res": "ap_2/instructions.md"
       },
       {
-        "title": "Area do retângulo",
+        "title": "Área do retângulo",
         "contains": "markdown",
         "res": "ap_3/instructions.md"
       },
@@ -30,6 +30,11 @@
         "title": "Simular criação de arquivos",
         "contains": "markdown",
         "res": "ap_4/instructions.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas/respostas.md"
       }
     ]
   }

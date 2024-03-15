@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void main() {
-  // Gerar número aleatorio
+  // Gerar número aleatório
   final random = Random();
   final numero = random.nextInt(100);
 

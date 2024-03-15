@@ -1,4 +1,4 @@
-## AP2 - Cadeia de funções
+## Cadeia de funções
 
 Crie um programa atendendo os requisitos abaixo:
 

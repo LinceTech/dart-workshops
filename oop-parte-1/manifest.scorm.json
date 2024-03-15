@@ -12,7 +12,7 @@
         "res": "intro.md"
       },
       {
-        "title": "Conta bancaria",
+        "title": "Conta bancária",
         "contains": "markdown",
         "res": "ap_1/instructions.md"
       },
@@ -30,6 +30,11 @@
         "title": "Pessoas",
         "contains": "markdown",
         "res": "ap_4/instructions.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas/respostas.md"
       }
     ]
   }

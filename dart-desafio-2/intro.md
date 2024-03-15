@@ -13,4 +13,4 @@ cada exercício realizado, crie um novo arquivo chamado _"d2_de[**NUMERO DO DESA
     - d2_de7.dart
 
 Cada desafio tem um tempo recomendado para implementação, para ter e experiencia completa utilize um cronõmetro e
-registre quanto tempo voce leva para realizar cada desafio.
+registre quanto tempo você leva para realizar cada desafio.

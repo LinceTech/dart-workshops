@@ -1,6 +1,6 @@
 import 'dart:math';
 
-// Definindo generos musicais
+// Definindo gêneros musicais
 enum GenerosMusicais {
   trap,
   pagode,
@@ -11,7 +11,7 @@ enum GenerosMusicais {
 }
 
 void main() {
-  // Gerar número aleatorio
+  // Gerar número aleatério
   final numeroAleatorio = Random().nextInt(GenerosMusicais.values.length);
   print(numeroAleatorio);
 
@@ -19,22 +19,22 @@ void main() {
   final generoFavorito = GenerosMusicais.values[numeroAleatorio];
   switch (generoFavorito) {
     case GenerosMusicais.trap:
-      print('Meu genero musical preferido e o trap');
+      print('Meu gênero musical preferido e o trap');
       break;
     case GenerosMusicais.pagode:
-      print('Meu genero musical preferido e o pagode');
+      print('Meu gênero musical preferido e o pagode');
       break;
     case GenerosMusicais.samba:
-      print('Meu genero musical preferido e o samba');
+      print('Meu gênero musical preferido e o samba');
       break;
     case GenerosMusicais.rock:
-      print('Meu genero musical preferido e o rock');
+      print('Meu gênero musical preferido e o rock');
       break;
     case GenerosMusicais.pop:
-      print('Meu genero musical preferido e o pop');
+      print('Meu gênero musical preferido e o pop');
       break;
     case GenerosMusicais.rap:
-      print('Meu genero musical preferido e o rap');
+      print('Meu gênero musical preferido e o rap');
       break;
   }
 }

@@ -30,6 +30,11 @@
         "title": "Busca de dados",
         "contains": "markdown",
         "res": "ap_4/instructions.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas/respostas.md"
       }
     ]
   }

@@ -1,4 +1,4 @@
-## AP1 - Praticando funções
+## Praticando funções
 
 Crie um programa que atenda os requisitos abaixo:
 
@@ -13,7 +13,7 @@ Crie um programa que atenda os requisitos abaixo:
 
 Exemplo considerando os dados abaixo:
 
-| Lista 1 | Lista 2 | Acao  | Lista final |
+| Lista 1 | Lista 2 | Ação  | Lista final |
 |---------|---------|-------|-------------|
 | 3       | 15      | 3+15  | 18          |
 | 9       | 37      | 9+37  | 46          |
@@ -21,10 +21,13 @@ Exemplo considerando os dados abaixo:
 | 94      | 2       | 94+2  | 96          |
 
 Resultado do programa:
-> Lista: 3, 9, 25, 94  
-> Lista: 15, 37, 51, 2  
-> 3+15    
-> 9+37  
-> 25+51  
-> 94+2  
-> Lista: 18, 46, 76, 96
+
+```
+Lista: 3, 9, 25, 94  
+Lista: 15, 37, 51, 2  
+3+15    
+9+37  
+25+51  
+94+2  
+Lista: 18, 46, 76, 96
+```

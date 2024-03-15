@@ -1,4 +1,4 @@
-# AP3 - Utilizando métodos de lista #2
+# Utilizando métodos de lista #2
 
 Crie um programa que inicialize uma lista com 50 números gerados aleatoriamente entre 10 e 21 e imprima a lista gerada.
 Em sequência, imprima todos os valores únicos presentes na lista.

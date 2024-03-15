@@ -9,7 +9,7 @@ Future<void> main() async {
     contador--;
   }
 
-  print('Foguete lancado!');
+  print('Foguete lan~çado!');
 }
 
 Future<void> contagem(int value) async {

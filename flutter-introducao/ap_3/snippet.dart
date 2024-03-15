@@ -70,7 +70,7 @@ class _MyWidgetState extends State<MyWidget> {
     if (ganhou) {
       return Container(
         color: Colors.green,
-        child: const Text('Voce ganhou'),
+        child: const Text('Você ganhou'),
       );
     }
 
@@ -78,7 +78,7 @@ class _MyWidgetState extends State<MyWidget> {
     if (perdeu) {
       return Container(
         color: Colors.red,
-        child: const Text('Voce perdeu'),
+        child: const Text('Você perdeu'),
       );
     }
 

@@ -1,4 +1,4 @@
-## AP4 - Funções para conversão de base
+## Funções para conversão de base
 
 Escreva uma função que receba uma lista de números inteiros e imprima no console em ordem crescente os números
 representados na forma decimal, binaria, octal e hexadecimal.

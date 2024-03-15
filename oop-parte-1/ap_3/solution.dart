@@ -1,7 +1,7 @@
 void main() {
   // Criando listas
   final produtos = <Produto>[];
-  final nomes = ['Garrafa', 'camisa', 'colar', 'bermuda', 'oculos'];
+  final nomes = ['Garrafa', 'camisa', 'colar', 'bermuda', 'óculos'];
   final precos = [2.0, 10.0, 8.5, 4.0, 14.0];
 
   // Passar pelos dados das listas

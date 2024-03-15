@@ -1,4 +1,4 @@
-## AP4 - Definição de variáveis
+## Definição de variáveis
 
 Crie uma função utilizando apenas operadores para retornar o percentual inteiro de desconto aplicado em um produto,
 recebendo como parâmetro o valor do produto e o valor com desconto. Para essa atividade _**nao eh permitido utilizar**_

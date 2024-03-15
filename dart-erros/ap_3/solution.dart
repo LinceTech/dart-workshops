@@ -25,10 +25,10 @@ abstract class Forma {
 
 class Retangulo implements Forma {
   Retangulo(this.base, this.altura) {
-    // Tratamento das dimensoes
+    // Tratamento das dimensões
     if (base <= 0 || altura <= 0) {
       throw Exception(
-        'Dimensões invalidas, informe apenas valores positivos maiores que zero',
+        'Dimensões inválidas, informe apenas valores positivos maiores que zero',
       );
     }
   }

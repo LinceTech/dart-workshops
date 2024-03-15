@@ -6,7 +6,7 @@ void main() {
   double area = retangulo.calcularArea();
 
   // Imprimir area
-  print("Area do retângulo: $area");
+  print("Área do retângulo: $area");
 }
 
 // Definição da classe
