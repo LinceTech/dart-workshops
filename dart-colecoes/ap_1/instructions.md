@@ -1,4 +1,4 @@
-## AP1 - Lista aleatória
+# AP1 - Lista aleatória
 
 Crie um programa que inicialize uma lista com 10 números entre 0 e 100, gerados aleatoriamente. Imprima os itens da
 lista conforme o exemplo:
