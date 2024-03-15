@@ -1,11 +1,34 @@
-# ED2 - Exercício prático Dart - Coleções
+# Exercício prático Dart - Coleções
 
-Antes de começar a programar, crie um novo projeto no git chamado "academy_pratica_e2" para salvar seu progresso. Para
-cada exercício realizado, crie um novo arquivo chamado _"ed2_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
+Essa lista de exercícios visa fixar os tópicos apresentados nas aulas. Para ter o maior aproveitamento desse conteúdo,
+fique atento as seguintes instruções:
 
-- /academy_pratica_e2
-    - ed2_ap1.dart
-    - ed2_ap2.dart
-    - ed2_ap3.dart
-    - ed2_ap4.dart
-    - ed2_ap5.dart
+### Git
+
+Mantenha todo o código produzido em um repositório no [GitHub](https://github.com/). Siga o padrão de pastas/arquivos
+especificados abaixo.
+
+- `/seu_repositorio`   _(pasta principal de seu repositório)_
+    - `/ap2_colecoes`  _(pasta com as implementações dessas atividades)_
+        - `ap1.dart`   _(arquivo com a resolução da atividade 1)_
+        - `ap2.dart`   _(arquivo com a resolução da atividade 2)_
+        - `ap3.dart`   _(arquivo com a resolução da atividade 3)_
+        - `ap4.dart`   _(arquivo com a resolução da atividade 4)_
+
+### Fique atento!
+
+- Sempre que você terminar um exercício, faça commit do código produzido
+- O código produzido poderá servir de base para futuras atividades e desafios
+- Os instrutores e mentores poderão utilizar o código produzido para direcionar seus estudos de forma personalizada
+- Sempre que possível, tente resolver os exercícios utilizando múltiplas técnicas diferentes. Essa prática te ajudará a
+  absorver os melhor os conceitos apresentados
+- Em caso de dúvida, escreva suas perguntas e converse com os mentores
+
+### Ferramenta de desenvolvimento
+
+A resolução das atividades deixa livre à sua escolha da ferramenta de desenvolvimento utilizada. Caso não tenha
+configurado seu computador, você pode utilizar uma plataforma online para desenvolver as atividades, mas não esqueça de
+enviar o código para o Git:
+
+- [DartPad](https://dartpad.dev/)
+- [Zapp](https://zapp.run/edit/dart)

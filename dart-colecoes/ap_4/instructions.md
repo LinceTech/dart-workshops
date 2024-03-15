@@ -6,11 +6,13 @@ localizada. Com o mapa de cidades por estado, implemente as seguintes acoes:
 1. Utilizando as chaves do mapa, imprima as siglas dos estados, no formato `Estados: XX ; XX ; XX ; XX`
 2. Imprimir todas as cidades SC em ordem alfabética (ex.: `Cidades de SC: Blumenau ; Florianopolis ; Gaspar`)
 3. Imprimir todas as cidades em ordem alfabética, no formato
-   > Belo Horizonte - MG  
+   ```
+   Belo Horizonte - MG  
    Berlinda - MG  
    Blumenau - SC  
    ...  
    Sao Paulo - SP
+   ``` 
 
 #### Utilize os dados da tabela abaixo para incluir as cidades/estados no mapa:
 
