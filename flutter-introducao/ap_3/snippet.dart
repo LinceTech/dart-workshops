@@ -42,14 +42,14 @@ class _MyWidgetState extends State<MyWidget> {
   void initState() {
     super.initState();
 
-    // Escolher um número de 0 a 2 para identificar escolher o botao correto
+    // Escolher um número de 0 a 2 para identificar escolher o botão correto
     botaoCorreto = random.nextInt(3);
   }
 
   // Tratar a tentativa do usuário
   void tentativa(int opcao) {
     setState(() {
-      // Verificar se a opcao escolhida esta correta
+      // Verificar se a opção escolhida esta correta
       if (opcao == botaoCorreto) {
         ganhou = true;
       } else {

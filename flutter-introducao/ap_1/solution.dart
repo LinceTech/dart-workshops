@@ -38,7 +38,7 @@ class _MyWidgetState extends State<MyWidget> {
     return Column(
       children: [
         Text(
-          'Cor aleatoria',
+          'Cor aleatória',
           style: Theme.of(context)
               .textTheme
               .headlineMedium!

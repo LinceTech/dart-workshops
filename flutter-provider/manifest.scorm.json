@@ -1,0 +1,21 @@
+{
+  "id": "flutter-provider",
+  "org": "br.com.lince.academy",
+  "theme": "idea",
+  "course": {
+    "name": "Flutter - Provider",
+    "title": "LinceTech Academy - Flutter - Provider",
+    "contents": [
+      {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
+        "title": "Tipos sanguíneos",
+        "contains": "markdown",
+        "res": "q1.md"
+      }
+    ]
+  }
+}

@@ -1,6 +1,0 @@
-name: LinceTech Academy - Gerenciamento de estados com Provider
-type: flutter
-steps:
-  - name: Atividade 1
-    directory: ap_1
-    has_solution: false

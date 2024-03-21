@@ -49,7 +49,7 @@ class _FormularioState extends State<_Formulario> {
         _inativoSalvo = _inativo;
       });
     } else {
-      print("Existem erros no formulario");
+      print("Existem erros no formulário");
     }
   }
 
@@ -70,13 +70,13 @@ class _FormularioState extends State<_Formulario> {
               ),
               validator: (value) {
                 if (value?.isEmpty ?? true) {
-                  return "Nome obrigatorio";
+                  return "Nome obrigatório";
                 }
                 if (value!.length < 2) {
                   return "Nome precisa ter no mínimo duas letras";
                 }
                 if (value.startsWith(RegExp(r'[^A-Z]'))) {
-                  return "Nome precisa começar com letra maiuscula";
+                  return "Nome precisa começar com letra maiúscula";
                 }
                 return null;
               },
@@ -89,11 +89,11 @@ class _FormularioState extends State<_Formulario> {
               ),
               validator: (value) {
                 if (value?.isEmpty ?? true) {
-                  return "Idade obrigatoria";
+                  return "Idade obrigatória";
                 }
                 final idade = int.tryParse(_idadeController.text) ?? 0;
                 if (idade < 18) {
-                  return "Idade invalida";
+                  return "Idade inválida";
                 }
                 return null;
               },

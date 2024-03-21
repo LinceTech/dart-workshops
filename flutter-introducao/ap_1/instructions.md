@@ -1,15 +1,4 @@
-# EF1 - exercício pratico Flutter
+## Cores aleatórias
 
-Antes de começar a programar, crie um novo projeto no git chamado "academy_pratica_f1" para salvar seu progresso. Para
-cada exercício realizado, crie um novo arquivo chamado _"ef1_ap[**NUMERO DA ATIVIDADE**].dart"_, ex:
-
-- academy_pratica_f1
-    - ef1_ap1.dart
-    - ef1_ap2.dart
-    - ef1_ap3.dart
-    - ef1_ap4.dart
-
-## AP1 - Cores aleatórias
-
-Crie um aplicativo que altere a cor do texto aleatoriamente conforme o toque sobre um botao "Sortear cor"
+Crie um aplicativo que altere a cor do texto aleatóriamente conforme o toque sobre um botão "Sortear cor"
 (utilize o Widget de sua preferência: `GestureDetector`, `ElevatedButton`, `TextButton`, `OutlinedButton`)

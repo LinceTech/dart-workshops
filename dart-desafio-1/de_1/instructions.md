@@ -1,4 +1,4 @@
-## DE1 - Raios e perímetros
+## Raios e perímetros
 
 Escreva um programa que receba uma lista de raios de círculos e com base nos raios, calcule o area e o perímetro de cada
 círculo e exiba no console. Utilize a biblioteca dart:math.

@@ -1,0 +1,26 @@
+{
+  "id": "flutter-navigation",
+  "org": "br.com.lince.academy",
+  "theme": "idea",
+  "course": {
+    "name": "Flutter - Navegação",
+    "title": "LinceTech Academy - Flutter - Navegação",
+    "contents": [
+      {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
+        "title": "Lista de cores",
+        "contains": "markdown",
+        "res": "q1.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas.md"
+      }
+    ]
+  }
+}

@@ -56,7 +56,7 @@ class _MyWidgetState extends State<MyWidget> {
   // Tratar a tentativa do usuário
   void tentativa(int opcao) {
     setState(() {
-      // Verificar se a opcao escolhida esta correta
+      // Verificar se a opção escolhida esta correta
       if (opcao == botaoCorreto) {
         estadoDoJogo = EstadoDoJogo.ganhou;
         vitorias++;
@@ -75,7 +75,7 @@ class _MyWidgetState extends State<MyWidget> {
 
   void iniciarJogo() {
     setState(() {
-      // Escolher um número de 0 a 2 para identificar escolher o botao correto
+      // Escolher um número de 0 a 2 para identificar escolher o botão correto
       botaoCorreto = random.nextInt(3);
 
       // Limpar o contador de clicks
@@ -165,7 +165,7 @@ class JogoEmAndamento extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Vitorias: $vitorias'),
+        Text('Vitórias: $vitorias'),
         Text('Derrotas: $derrotas'),
         ElevatedButton(
           child: const Text('A'),

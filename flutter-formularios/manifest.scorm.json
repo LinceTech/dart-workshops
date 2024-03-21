@@ -1,0 +1,26 @@
+{
+  "id": "flutter-forms",
+  "org": "br.com.lince.academy",
+  "theme": "idea",
+  "course": {
+    "name": "Flutter - Formulários",
+    "title": "LinceTech Academy - Flutter - Formulários",
+    "contents": [
+      {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "intro.md"
+      },
+      {
+        "title": "Formulário básico",
+        "contains": "markdown",
+        "res": "q1.md"
+      },
+      {
+        "title": "Respostas",
+        "contains": "markdown",
+        "res": "respostas.md"
+      }
+    ]
+  }
+}

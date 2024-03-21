@@ -42,14 +42,14 @@ class _MyWidgetState extends State<MyWidget> {
   void initState() {
     super.initState();
 
-    // Escolher um número de 0 a 2 para identificar escolher o botao correto
+    // Escolher um número de 0 a 2 para identificar escolher o botão correto
     botaoCorreto = random.nextInt(3);
   }
 
   // Tratar a tentativa do usuário
   void tentativa(int opcao) {
     setState(() {
-      // Verificar se a opcao escolhida esta correta
+      // Verificar se a opção escolhida esta correta
       if (opcao == botaoCorreto) {
         ganhou = true;
       } else {
@@ -66,7 +66,7 @@ class _MyWidgetState extends State<MyWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // Se o usuário ganhou, retorna a mensagem de sucesso com o fundo em verde
+    // Se o jogador ganhou, retorna a mensagem de sucesso com o fundo em verde
     if (ganhou) {
       return Container(
         color: Colors.green,
@@ -74,7 +74,7 @@ class _MyWidgetState extends State<MyWidget> {
       );
     }
 
-    // Se o perdeu ganhou, retorna a mensagem de fracasso com o fundo em vermelho
+    // Se o jogador perdeu, retorna a mensagem de fracasso com o fundo em vermelho
     if (perdeu) {
       return Container(
         color: Colors.red,
@@ -82,7 +82,7 @@ class _MyWidgetState extends State<MyWidget> {
       );
     }
 
-    // Nesse momento o jogo ainda nao foi finalizado
+    // Nesse momento o jogo ainda não foi finalizado
     return Column(
       children: [
         ElevatedButton(

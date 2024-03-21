@@ -1,11 +1,11 @@
-## AP3 - Formatos dinamicos
+## Formatos dinâmicos
 
 Utilizando os widgets vistos, crie um app que reproduza o layout da imagem, e os comportamentos definidos:
 
-- Ter um botao que alterne a forma exibida entre um círculo ou um quadrado
-- Ao alterar a forma, o texto do botao deve ser atualizado (se a forma atual for círculo, o botao deve ser "Alterar para
+- Ter um botão que alterne a forma exibida entre um círculo ou um quadrado
+- Ao alterar a forma, o texto do botão deve ser atualizado (se a forma atual for círculo, o botão deve ser "Alterar para
   quadrado")
-- Ter um botao que seleciona uma cor aleatoria para a forma exibida
+- Ter um botão que seleciona uma cor aleatória para a forma exibida
 
 <img alt="imagem" width="426" height="138" style="width: 426px; height: 138px;" src="https://github.com/LinceTech/dart-workshops/blob/main/flutter-widgets/ap_3/print_1.png?raw=true"/>
 

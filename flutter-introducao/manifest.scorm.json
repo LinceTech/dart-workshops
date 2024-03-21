@@ -1,10 +1,10 @@
 {
-  "id": "oop-parte-2",
+  "id": "flutter-intro",
   "org": "br.com.lince.academy",
   "theme": "idea",
   "course": {
-    "name": "Dart - OOP #2",
-    "title": "LinceTech Academy - Dart - OOP #2",
+    "name": "Flutter - Introdução",
+    "title": "LinceTech Academy - Flutter - Introdução",
     "contents": [
       {
         "title": "Introdução",
@@ -12,29 +12,24 @@
         "res": "intro.md"
       },
       {
-        "title": "Gêneros musicais",
+        "title": "Cores aleatórias",
         "contains": "markdown",
         "res": "ap_1/instructions.md"
       },
       {
-        "title": "Animais",
+        "title": "Opção aleatória",
         "contains": "markdown",
         "res": "ap_2/instructions.md"
       },
       {
-        "title": "Classes abstratas",
+        "title": "Refatoração de código",
         "contains": "markdown",
         "res": "ap_3/instructions.md"
       },
       {
-        "title": "Calculadora",
-        "contains": "markdown",
-        "res": "ap_4/instructions.md"
-      },
-      {
         "title": "Respostas",
         "contains": "markdown",
-        "res": "respostas/respostas.md"
+        "res": "respostas.md"
       }
     ]
   }
