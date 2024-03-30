@@ -8,9 +8,7 @@ $atividades = @(
     "dart-variaveis",
     "oop-parte-1",
     "oop-parte-2",
-    # Desafios (não está pronto)
-    # ,
-    # "dart-desafio-1",
+    "dart-desafio-1",
     # "dart-desafio-2",
     # "dart-desafio-3",
 

@@ -1,4 +1,4 @@
-## DE3 - Manipulando texto
+## Manipulando texto
 
 Escreva um programa que receba um parágrafo, e imprima no console as seguintes informações:
 
@@ -12,14 +12,17 @@ Escreva um programa que receba um parágrafo, e imprima no console as seguintes 
 Tempo do desafio: __40 minutos__
 
 __Paragrafo__:  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris
-lobortis quam id lacinia porttitor.
+`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris
+lobortis quam id lacinia porttitor.`
 
 Saida esperada no console:
-> parágrafo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris
-> lobortis quam id lacinia porttitor.  
-> Numero de palavras: 20  
-> Tamanho do texto: 139  
-> Numero de frases: 3  
-> Numero de vogais: 50  
-> Consoantes encontradas: b, c, d, g, h, l, m, n, p, q, r, s, t, v  
+
+```
+parágrafo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis nunc et posuere vehicula. Mauris
+lobortis quam id lacinia porttitor.  
+Numero de palavras: 20  
+Tamanho do texto: 139  
+Numero de frases: 3  
+Numero de vogais: 50  
+Consoantes encontradas: b, c, d, g, h, l, m, n, p, q, r, s, t, v  
+```

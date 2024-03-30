@@ -10,7 +10,7 @@ Mantenha todo o código produzido em um repositório no [GitHub](https://github.
 especificados abaixo.
 
 - `/seu_repositorio`   _(pasta principal de seu repositório Flutter)_
-    - `/apf5_funcoes`  _(pasta com as implementações dessas atividades)_
+    - `/apf6_funcoes`  _(pasta com as implementações dessas atividades)_
         - `ap1.dart`   _(arquivo com a resolução da atividade 1)_
 
 ### Fique atento!
