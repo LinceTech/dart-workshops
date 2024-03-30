@@ -9,9 +9,7 @@ $atividades = @(
     "oop-parte-1",
     "oop-parte-2",
     "dart-desafio-1",
-    # "dart-desafio-2",
-    # "dart-desafio-3",
-
+    "dart-desafio-2",
     # Flutter (não está pronto)
     # "flutter-async",  # TODO: verificar se está faltando algo aqui
      "flutter-formularios",
