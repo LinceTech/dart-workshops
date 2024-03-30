@@ -1,4 +1,4 @@
-## DE7 - Fila do mercado
+## Fila do mercado
 
 Crie uma classe para controlar uma fila de um mercado, seguindo as especificações:
 
@@ -13,6 +13,6 @@ Crie uma classe para controlar uma fila de um mercado, seguindo as especificaç�
 7. No método main, as pessoas devem ser atendidas corretamente conforme a ordem que entraram na fila, até a fila
    ser esgotada
 
-** _substituir (Fulano Silva) pelo nome da pessoa_
+** _Substituir (Fulano Silva) pelo nome da pessoa_
 
 Tempo do desafio: __35 minutos__  

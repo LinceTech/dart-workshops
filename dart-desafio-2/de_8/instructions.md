@@ -1,4 +1,4 @@
-## DE7 - Album de figurinhas
+## Album de figurinhas
 
 **IMPORTANTE**: para a realização desse exercício, nao deve ser utilizado dynamic.
 

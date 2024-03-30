@@ -1,4 +1,4 @@
-## DE3 - Biblioteca de musicas
+## Biblioteca de musicas
 
 **IMPORTANTE**: para a realização desse exercício, nao deve ser utilizado dynamic.
 

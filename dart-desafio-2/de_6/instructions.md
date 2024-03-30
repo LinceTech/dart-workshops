@@ -1,4 +1,4 @@
-## DE6 - Baralho de cartas
+## Baralho de cartas
 
 **IMPORTANTE**: para a realização desse exercício, nao deve ser utilizado dynamic.
 

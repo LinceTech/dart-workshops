@@ -1,4 +1,4 @@
-## DE5 - Trabalhando com lista
+## Trabalhando com lista
 
 Baseado na situação descrita abaixo, escreva um programa utilizando a estrutura "lista"
 
