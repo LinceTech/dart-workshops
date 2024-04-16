@@ -15,4 +15,4 @@ Utilizando os widgets vistos, crie um app que reproduza o layout da imagem, cons
   - Sem cor de fundo
   - Branco
 
-<img alt="imagem" width="472" height="123" style="width: 472px; height: 123px;" src="https://github.com/LinceTech/dart-workshops/blob/main/flutter-widgets/ap_2/print.png?raw=true"/>
+![image](https://github.com/LinceTech/dart-workshops/blob/main/flutter-widgets/ap_2/print.png?raw=true)
