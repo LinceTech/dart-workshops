@@ -1,0 +1,31 @@
+{
+  "id": "logica-1",
+  "org": "br.com.lince.academy",
+  "theme": "idea",
+  "course": {
+    "name": "Lógica de programação #1",
+    "title": "LinceTech Academy - Lógica de programação #1",
+    "contents": [
+      {
+        "title": "Introdução",
+        "contains": "markdown",
+        "res": "0_intro.md"
+      },
+      {
+        "title": "Aplicando formulas",
+        "contains": "markdown",
+        "res": "1_formulas.md"
+      },
+      {
+        "title": "Trabalhando com vetores",
+        "contains": "markdown",
+        "res": "2_vetores.md"
+      },
+      {
+        "title": "Trabalhando com matrizes",
+        "contains": "markdown",
+        "res": "3_matrizes.md"
+      }
+    ]
+  }
+}
