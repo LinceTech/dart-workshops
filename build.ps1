@@ -1,4 +1,5 @@
 $atividades = @(
+    "logica-1",
     "dart-colecoes",
     "dart-concorrencia",
     "dart-elementos-logicos",
